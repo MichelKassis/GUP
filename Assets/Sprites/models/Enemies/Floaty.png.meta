@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 1c5c2901387944b46826f82e79e6e360
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3641539457278909672
+    second: Floaty_0
+  - first:
+      213: 221047261894212727
+    second: Floaty_1
+  - first:
+      213: 1932307025489142785
+    second: Floaty_2
+  - first:
+      213: 4204927184678813148
+    second: Floaty_3
+  - first:
+      213: -6548088215609197884
+    second: Floaty_4
+  - first:
+      213: -1299646461694305775
+    second: Floaty_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +88,147 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Floaty_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 770
+        width: 143
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ede4e51752a2da41b435f811c8d06fc
+      internalID: 3641539457278909672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 759
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e7da48cd1f660488229b1f01eb1120
+      internalID: 221047261894212727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty_2
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 657
+        width: 338
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81ed50163e4ab14f90c5bf094f22029
+      internalID: 1932307025489142785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty_3
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 319
+        width: 28
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902bd71ea4cb3f848891116892bf900c
+      internalID: 4204927184678813148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 202
+        width: 65
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1543fac3eb5dc1a4cb3ae293f589d2c7
+      internalID: -6548088215609197884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 330
+        width: 34
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce258d705e3539449b26a8406750f68
+      internalID: -1299646461694305775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
