@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// The water rises slowly
+// The water rises slowly, if it touches fish it dies
 
 public class RisingWater : MonoBehaviour {
     public float speed = 1;
