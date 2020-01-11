@@ -793,50 +793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5a3761830bd014491df1c3229f2109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Force: 350
-  range: 2.1
-  AttackState: 0000000000000000
-  attack_direction: 0
-  fl: 0
-  sl: 1
-  reversed_dir: 
-  time: 0
-  switchTime: 0.2
-  muscles:
-  - {bone: {fileID: 9097342789673955958}, root: {fileID: 0}, restRotation: 0, force: 100, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 2632260474285425628}, root: {fileID: 0}, restRotation: 0, force: 7, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 100, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 100, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 100, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 100, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 6853184557767330229}, root: {fileID: 744028696738237380}, restRotation: 0, force: 0, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 1}
-  - {bone: {fileID: 5136417147262340425}, root: {fileID: 744028696738237380}, restRotation: 0, force: 0, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 1}
-  _legbr: {fileID: 0}
-  _legbl: {fileID: 0}
-  _legur: {fileID: 0}
-  _legul: {fileID: 0}
-  _hip: {fileID: 9097342789673955958}
-  _handr: {fileID: 6853184557767330229}
-  _handl: {fileID: 5136417147262340425}
-  movement_speed: 15
-  upper_leg:
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 0, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 0, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  lower_leg:
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 0, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 0, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  hip: {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 0, addRotation: 0,
-    currentforce: 0, forcePercentage: 0, disabled: 0}
-  hand:
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 0, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  - {bone: {fileID: 0}, root: {fileID: 0}, restRotation: 0, force: 0, addRotation: 0, currentforce: 0, forcePercentage: 0, disabled: 0}
-  targetPos: {x: 0, y: 0}
-  walk: 0
-  walk_direction: 0
-  CurrentCycleTime: 0
-  time_passed: 0
-  state: 0
-  timeCycle: 0.25
 --- !u!114 &3432562415181918507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1746,11 +1702,21 @@ PrefabInstance:
       propertyPath: origin
       value: 
       objectReference: {fileID: 6853184557767330229}
+    - target: {fileID: 6031297300653689373, guid: 092cd2b092b424737a9539b896555067,
+        type: 3}
+      propertyPath: stayTime
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6031297301513741132, guid: 092cd2b092b424737a9539b896555067,
         type: 3}
       propertyPath: origin
       value: 
       objectReference: {fileID: 5136417147262340425}
+    - target: {fileID: 6031297301513741132, guid: 092cd2b092b424737a9539b896555067,
+        type: 3}
+      propertyPath: stayTime
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6031297301545866530, guid: 092cd2b092b424737a9539b896555067,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1902,10 +1868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ffd9515e27ceb84db479da720f2984c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: []
-  starting_item: {fileID: 0}
-  strength: 10
-  mana: 10
 --- !u!1001 &7788253796804706746
 PrefabInstance:
   m_ObjectHideFlags: 0
