@@ -9,7 +9,7 @@ public class RisingWater : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        transform.localScale += speed * 2 * Vector3.up / 60;
+        transform.localPosition += speed * Vector3.up / 60;
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
