@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4fae73ff99c8978468bb53e9186697bf
+guid: 410f26768b37d4445a2612cc7aa5ea61
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -115,7 +115,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29218cb2ba8f24e47a8a4da8f4df047d
+      spriteID: d577705cab631864cb6b4117c63e799d
       internalID: 2097716390295217549
       vertices: []
       indices: 
@@ -136,7 +136,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d05306afe1cebda4091dfffc3f7d333e
+      spriteID: a502117d1c408ff4fa382183e8aea17b
       internalID: -742969536673331908
       vertices: []
       indices: 
@@ -157,7 +157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf27d6168426e134abeec4757ad279b1
+      spriteID: ee0a4a4a3eed17845964076c9c265b99
       internalID: -4856723173021533654
       vertices: []
       indices: 
@@ -178,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c60b94b9583f91844bcad2a52dc8cb4b
+      spriteID: 9bd5489896c365f46a3513ed41a95f5a
       internalID: 7578037451886180455
       vertices: []
       indices: 
@@ -188,10 +188,10 @@ TextureImporter:
       name: Hawk_4
       rect:
         serializedVersion: 2
-        x: 500
-        y: 332
-        width: 276
-        height: 98
+        x: 546
+        y: 135
+        width: 175
+        height: 278
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,7 +199,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37441e7469654b34d9a71ebf740b51ff
+      spriteID: 57bec20a0b5052d4798b805b0bdbaecb
       internalID: -7612031950176912341
       vertices: []
       indices: 
