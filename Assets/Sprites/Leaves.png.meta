@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: abd9eef1a0a341f4bb086ad445c4f12c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3664983861114067704
+    second: Leaves_0
+  - first:
+      213: -5999245757173483519
+    second: Leaves_1
+  - first:
+      213: -8532703326110650893
+    second: Leaves_2
+  - first:
+      213: 83947755850914152
+    second: Leaves_3
+  - first:
+      213: 4689631791232870842
+    second: Leaves_4
+  - first:
+      213: 2386680483698164931
+    second: Leaves_5
+  - first:
+      213: 827997436098469290
+    second: Leaves_6
+  - first:
+      213: -1711180651931834051
+    second: Leaves_7
+  - first:
+      213: 8116455009279416445
+    second: Leaves_8
+  - first:
+      213: 5701419402062966781
+    second: Leaves_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,7 +90,31 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -72,7 +126,408 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Leaves_0
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 4300
+        width: 544
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff98129a6b913740bd7029a1fc8483c
+      internalID: 3664983861114067704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_1
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 4389
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0184ed707fc684d8a6e2ed306266f8
+      internalID: -5999245757173483519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_2
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 4346
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ecbb71d821a8f409b25b207e7690b3
+      internalID: -8532703326110650893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_3
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3815
+        width: 207
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e26dcc99830e1f4bb37eb9bda0f8f4d
+      internalID: 83947755850914152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2290
+        width: 864
+        height: 1424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166239dcfdac12c4ead56c0350f5f4bf
+      internalID: 4689631791232870842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_5
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 3707
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9c3dbffb50cee469b53d07176e0f1e
+      internalID: 2386680483698164931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_6
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 3713
+        width: 153
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7231d9b39757a08478c12441fb081263
+      internalID: 827997436098469290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_7
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 2290
+        width: 851
+        height: 1382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c037da74e9d3ac14cbee068fe1d4227d
+      internalID: -1711180651931834051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_8
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 885
+        width: 923
+        height: 860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 91.5, y: -359}
+        - {x: 97.5, y: -354}
+        - {x: 94.5, y: -332}
+        - {x: 99.5, y: -336}
+        - {x: 123.5, y: -336}
+        - {x: 128.5, y: -326}
+        - {x: 135.5, y: -314}
+        - {x: 156.5, y: -325}
+        - {x: 165.5, y: -343}
+        - {x: 181.5, y: -364}
+        - {x: 199.5, y: -379}
+        - {x: 223.5, y: -374}
+        - {x: 227.5, y: -369}
+        - {x: 226.5, y: -366}
+        - {x: 222.5, y: -365}
+        - {x: 201.5, y: -365}
+        - {x: 189.5, y: -349}
+        - {x: 177.5, y: -324}
+        - {x: 173.5, y: -309}
+        - {x: 150.5, y: -290}
+        - {x: 134.5, y: -285}
+        - {x: 123.5, y: -286}
+        - {x: 106.5, y: -249}
+        - {x: 94.5, y: -227}
+        - {x: 89.5, y: -162}
+        - {x: 90.5, y: -161}
+        - {x: 87.5, y: -112}
+        - {x: 101.5, y: -30}
+        - {x: 123.5, y: 80}
+        - {x: 123.5, y: 124}
+        - {x: 76.5, y: -24}
+        - {x: 58.5, y: -124}
+        - {x: 16.5, y: -29}
+        - {x: -32.5, y: 83}
+        - {x: -48.5, y: 15}
+        - {x: -162.5, y: 114}
+        - {x: -240.5, y: 265}
+        - {x: -187.5, y: 117}
+        - {x: -324.5, y: 133}
+        - {x: -183.5, y: 96}
+        - {x: -48.5, y: -30}
+        - {x: 14.5, y: -143}
+        - {x: 23.5, y: -163}
+        - {x: 36.5, y: -192}
+        - {x: 41.5, y: -229}
+        - {x: 45.5, y: -265}
+        - {x: 51.5, y: -296}
+        - {x: 44.5, y: -330}
+        - {x: 46.5, y: -342}
+        - {x: 27.5, y: -343}
+        - {x: 19.5, y: -351}
+        - {x: 2.5, y: -377}
+        - {x: -12.5, y: -374}
+        - {x: -28.5, y: -372}
+        - {x: -43.5, y: -385}
+        - {x: -45.5, y: -397}
+        - {x: -55.5, y: -405}
+        - {x: -63.5, y: -412}
+        - {x: -62.5, y: -415}
+        - {x: -59.5, y: -415}
+        - {x: -43.5, y: -411}
+        - {x: -39.5, y: -405}
+        - {x: -37.5, y: -400}
+        - {x: -20.5, y: -386}
+        - {x: -14.5, y: -393}
+        - {x: -29.5, y: -396}
+        - {x: -31.5, y: -404}
+        - {x: -6.5, y: -408}
+        - {x: 12.5, y: -395}
+        - {x: 23.5, y: -383}
+        - {x: 32.5, y: -364}
+        - {x: 39.5, y: -376}
+        - {x: 58.5, y: -375}
+        - {x: 61.5, y: -366}
+        - {x: 73.5, y: -399}
+        - {x: 60.5, y: -419}
+        - {x: 60.5, y: -430}
+        - {x: 66.5, y: -430}
+        - {x: 68.5, y: -428}
+        - {x: 80.5, y: -411}
+        - {x: 85.5, y: -385}
+        - {x: 78.5, y: -367}
+      - - {x: -70.5, y: -416}
+        - {x: -69.5, y: -419}
+        - {x: -66.5, y: -419}
+        - {x: -64.5, y: -417}
+        - {x: -65.5, y: -414}
+        - {x: -68.5, y: -414}
+      tessellationDetail: 0.2
+      bones: []
+      spriteID: 64cf00373d3c0f24fad70ae8f6d4d7ed
+      internalID: 8116455009279416445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaves_9
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 249
+        width: 286
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -71, y: -67.5}
+        - {x: -55, y: -47.5}
+        - {x: -29, y: -40.5}
+        - {x: -8, y: -28.5}
+        - {x: 28, y: -3.5}
+        - {x: 57, y: -2.5}
+        - {x: 87, y: -7.5}
+        - {x: 107, y: -6.5}
+        - {x: 108, y: -3.5}
+        - {x: 108, y: 0.5}
+        - {x: 69, y: 8.5}
+        - {x: 50, y: 9.5}
+        - {x: 80, y: 27.5}
+        - {x: 89, y: 34.5}
+        - {x: 116, y: 56.5}
+        - {x: 140, y: 75.5}
+        - {x: 139, y: 78.5}
+        - {x: 135, y: 79.5}
+        - {x: 105, y: 60.5}
+        - {x: 93, y: 47.5}
+        - {x: 96, y: 62.5}
+        - {x: 95, y: 79.5}
+        - {x: 92, y: 80.5}
+        - {x: 88, y: 79.5}
+        - {x: 82, y: 46.5}
+        - {x: 78, y: 36.5}
+        - {x: 70, y: 32.5}
+        - {x: 26, y: 8.5}
+        - {x: 10, y: 1.5}
+        - {x: -3, y: -9.5}
+        - {x: -12, y: -7.5}
+        - {x: -18, y: -6.5}
+        - {x: -60, y: -28.5}
+        - {x: -57, y: 5.5}
+        - {x: -56, y: 29.5}
+        - {x: -39, y: 106.5}
+        - {x: -38, y: 114.5}
+        - {x: -28, y: 125.5}
+        - {x: -15, y: 128.5}
+        - {x: 3, y: 139.5}
+        - {x: 25, y: 162.5}
+        - {x: 34, y: 180.5}
+        - {x: 31, y: 184.5}
+        - {x: 9, y: 160.5}
+        - {x: -2, y: 146.5}
+        - {x: -20, y: 132.5}
+        - {x: -21, y: 136.5}
+        - {x: -35, y: 133.5}
+        - {x: -37, y: 146.5}
+        - {x: -41, y: 140.5}
+        - {x: -49, y: 105.5}
+        - {x: -53, y: 103.5}
+        - {x: -67, y: 138.5}
+        - {x: -76, y: 151.5}
+        - {x: -83, y: 173.5}
+        - {x: -97, y: 194.5}
+        - {x: -101, y: 194.5}
+        - {x: -103, y: 191.5}
+        - {x: -90, y: 161.5}
+        - {x: -86, y: 148.5}
+        - {x: -101, y: 153.5}
+        - {x: -103, y: 148.5}
+        - {x: -91, y: 137.5}
+        - {x: -79, y: 131.5}
+        - {x: -74, y: 121.5}
+        - {x: -60, y: 87.5}
+        - {x: -69, y: 69.5}
+        - {x: -70, y: 19.5}
+        - {x: -74, y: 0.5}
+        - {x: -76, y: -21.5}
+        - {x: -82, y: -31.5}
+        - {x: -87, y: -32.5}
+        - {x: -97, y: 10.5}
+        - {x: -102, y: 27.5}
+        - {x: -103, y: 46.5}
+        - {x: -105, y: 48.5}
+        - {x: -108, y: 47.5}
+        - {x: -109, y: 23.5}
+        - {x: -102, y: -17.5}
+        - {x: -98, y: -28.5}
+        - {x: -97, y: -53.5}
+        - {x: -105, y: -74.5}
+        - {x: -113, y: -98.5}
+        - {x: -118, y: -110.5}
+        - {x: -133, y: -143.5}
+        - {x: -143, y: -161.5}
+        - {x: -143, y: -168.5}
+        - {x: -134, y: -172.5}
+        - {x: -128, y: -164.5}
+        - {x: -116, y: -169.5}
+        - {x: -110, y: -171.5}
+        - {x: -112, y: -192.5}
+        - {x: -110, y: -194.5}
+        - {x: -104, y: -194.5}
+        - {x: -101, y: -192.5}
+        - {x: -86, y: -135.5}
+        - {x: -83, y: -116.5}
+        - {x: -77, y: -82.5}
+      - - {x: -104, y: 149.5}
+        - {x: -101, y: 150.5}
+        - {x: -101, y: 153.5}
+        - {x: -104, y: 154.5}
+        - {x: -106, y: 152.5}
+      tessellationDetail: 0.2
+      bones: []
+      spriteID: 5ed96ecf83324804bafe6deb3854f058
+      internalID: 5701419402062966781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
