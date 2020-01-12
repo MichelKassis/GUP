@@ -1,0 +1,64 @@
+Event	ID	Name			Wwise Object Path	Notes
+	529726532	End			\Default Work Unit\End	
+	1335561985	Web_Launch			\Default Work Unit\Web_Launch	
+	1560169506	Boss			\Default Work Unit\Boss	
+	1917263390	StopMusic			\Default Work Unit\StopMusic	
+	2122105434	Hawk_Scream			\Default Work Unit\Hawk_Scream	
+	2514411491	Died			\Default Work Unit\Died	
+	2524867556	Web_Grip			\Default Work Unit\Web_Grip	
+	2607556080	Menu			\Default Work Unit\Menu	
+	2678230381	Level2			\Default Work Unit\Level2	
+	2776193354	Menu_Quit			\Default Work Unit\Menu_Quit	
+	3193947170	Hurt			\Default Work Unit\Hurt	
+	3811936753	Birds_Hurt			\Default Work Unit\Birds_Hurt	
+	3903201844	Web_Attack			\Default Work Unit\Web_Attack	
+	4113816833	InitGame			\Default Work Unit\InitGame	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6923489	Level1_Strings1	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level1_Strings-002_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\Segments\Level1_Strings1		9584464
+	7042929	Level1_Strings1	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level1_Strings-001_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\Segments\Level1_Strings1		18992464
+	37903565	Hawk_Scream-001	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Hawk_Scream-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hawk\Hawk_Scream-001		288724
+	40167412	Web_Attack1	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Web_Attack1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Web_Attack\Web_Attack1		143512
+	71411952	Character_Dying-002	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Character_Dying-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dying\Character_Dying-002		489336
+	72358725	Boss_Marimba_High	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Boss_Marimba_High_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_Basse_High\Boss_Marimba_High		2116864
+	160666818	Web_Grip-001	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Web_Grip-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Web_Grip\Web_Grip-001		222704
+	161653911	Empty	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Empty_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movements\Empty		84128
+	164811070	Trans_SynthMel	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Trans_SynthMel_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Segments\Trans_SynthMel		2352064
+	194934593	Level2_synthHigh	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level2_synthHigh_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_strings\Level2_synthHigh		4704064
+	213949011	Ennemies_Birds-001	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Ennemies_Birds-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds\Ennemies_Birds-001		304320
+	222675610	Web_Attack2	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Web_Attack2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Web_Attack\Web_Attack2		118564
+	225211638	Ennemies_Birds-004	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Ennemies_Birds-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds\Ennemies_Birds-004		291848
+	226052041	Fish_movements-003	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Fish_movements-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movements\Fish_movements-003		312260
+	351925632	Web_Grip-002	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Web_Grip-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Web_Grip\Web_Grip-002		206736
+	360155151	Trans_Marimba	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Trans_Marimba_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Segments\Trans_Marimba		2352064
+	373231453	Fish_movements-001	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Fish_movements-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movements\Fish_movements-001		335568
+	395501535	Level2_strings	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level2_strings-002_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_strings\Level2_strings		18992464
+	410206697	Level2_strings	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level2_strings-001_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_strings\Level2_strings		9584464
+	432009668	Toms	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level1_Toms_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Segments\Toms		4704064
+	437276114	Boss_Toms_High	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Boss_Toms_High_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_Basse_High\Boss_Toms_High		2116864
+	439477095	Trans_SynthBasse	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Trans_SynthBasse_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Segments\Trans_SynthBasse		2352064
+	453913426	Level2_synthBasse	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level2_synthBasse_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_strings\Level2_synthBasse		4704064
+	484178474	Level1_SynthMel	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level1_SynthMel_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Segments\Level1_SynthMel		4704064
+	500895218	Ennemies_Birds-003	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Ennemies_Birds-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds\Ennemies_Birds-003		285612
+	522702037	Birds	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Hawk_Scream_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_GrosseCaisse\Birds		288724
+	551638376	Boss_Basse_High	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Boss_Basse_High_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_Basse_High\Boss_Basse_High		2116864
+	597752817	Level1_Marimba	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level1_Marimba_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\Segments\Level1_Marimba		4704064
+	614099117	Boss_Basse_High	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Boss_Basse_Low_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_Basse_High\Boss_Basse_High		2116864
+	625488042	Boss_GrosseCaisse	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Boss_GrosseCaisse_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_Basse_High\Boss_GrosseCaisse		2116864
+	636658360	Ennemies_Birds-005	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Ennemies_Birds-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds\Ennemies_Birds-005		285612
+	643460121	Level2_strings	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level2_strings_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_strings\Level2_strings		4704064
+	682926224	Birds	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Hawk_Scream-001_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_GrosseCaisse\Birds		288724
+	701144991	Web_Launch	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Web_Launch_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Web_Launch\Web_Launch		113648
+	703695443	Fish_Hurt	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Fish_Hurt_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fish_Hurt		148792
+	708435364	Ennemies_Birds-002	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Ennemies_Birds-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birds\Ennemies_Birds-002		304320
+	721793077	Character_Dying-003	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Character_Dying-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dying\Character_Dying-003		522860
+	732616698	Web_Launch-001	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Web_Launch-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Web_Launch\Web_Launch-001		96172
+	746254790	Character_Dying-001	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Character_Dying-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dying\Character_Dying-001		511836
+	761669344	Boss_Marimba_High	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Boss_Marimba_Low_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_Basse_High\Boss_Marimba_High		2116864
+	767632123	Boss_Toms_High	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Boss_Toms_Low_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Boss_Fight\Boss_Basse_High\Boss_Toms_High		2116864
+	868732314	Level1_PercusMetalliques	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level1_PercusMetalliques_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Segments\Level1_PercusMetalliques		4704064
+	912682116	Level1_SynthBasse	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level1_SynthBasse_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level1\Segments\Level1_SynthBasse		4704064
+	933793364	Level1_Strings1	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level1_Strings1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\Segments\Level1_Strings1		4704064
+	945773040	Level2_theremine	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Level2_theremine_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level2\Level2_strings\Level2_theremine		4704064
+	967397725	Hawk_Scream	C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\SFX\Hawk_Scream_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hawk\Hawk_Scream		288724
+

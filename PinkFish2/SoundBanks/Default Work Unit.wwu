@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AFB70552-04C5-4353-900C-72EE1E28508C}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{AFB70552-04C5-4353-900C-72EE1E28508C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Gup" ID="{9E26764D-3C74-4498-A6A6-7CDB121275EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Level2" ID="{98F6F5CB-E972-400E-993B-4F2205E76CBE}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Menu_Quit" ID="{068D18E4-A2C6-40C4-811F-18511800907B}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="End" ID="{B21E345E-015F-4226-B598-165BAD1F0267}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Birds_Hurt" ID="{97CE4880-24EB-43FB-BB1F-BEA602901D3A}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Menu" ID="{084A13EC-EB67-45C8-8112-259ED10913C4}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Hurt" ID="{F771399B-1DA0-47A1-86FD-2006B4B69A76}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Died" ID="{222825D7-6FAD-4A8F-9A21-881745A37774}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Web_Grip" ID="{654BF63F-E0CC-4BB0-BD6F-5ABC29F6CEB1}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Hawk_Scream" ID="{A27BADEB-8E12-4BB2-9A78-39F6E6CFF416}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Web_Attack" ID="{63D9F8A1-B46D-4BC6-AB4E-FA0D58BBCBAF}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="InitGame" ID="{8CC2EA48-D4F6-4BFE-BCA0-E53BA7EB7009}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Boss" ID="{711E2D74-D241-4CAD-A6B4-A69FC88F766C}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopMusic" ID="{10FD86CD-3CCA-4D12-B0CE-1FE4B7DD94AE}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Web_Launch" ID="{B20541B1-9F25-4EC3-8877-FBFD2468BD18}" WorkUnitID="{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

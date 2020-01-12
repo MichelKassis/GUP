@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D855C56-35EE-4474-AD3C-946F8EE1E52E}" SchemaVersion="89">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{4D855C56-35EE-4474-AD3C-946F8EE1E52E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Progression" ID="{65D56363-D26E-471B-966D-BE5A5071AC71}">
+					<ChildrenList>
+						<Switch Name="Level1" ID="{D256920D-BE89-4023-99FF-7F1EE22F0D6B}"/>
+						<Switch Name="Level2" ID="{4C65BF8A-3A04-4CA9-A87D-D6D9C7D6E5F5}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

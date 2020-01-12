@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5c2d596032bf0428785c222da77814, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  AcousticTextureWwu:
+  - Guid: '{6A977CF2-D85F-4442-900F-97D85C722103}'
+    m_lastTimePart2: -1999137170
+    m_lastTimePsrt1: -1739477916
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  AuxBusWwu:
+  - Guid: '{99B87CB0-8B19-4BD9-BBD4-037D3951511E}'
+    m_lastTimePart2: -1999137170
+    m_lastTimePsrt1: -1738038750
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{AFB70552-04C5-4353-900C-72EE1E28508C}'
+    m_lastTimePart2: -1999136975
+    m_lastTimePsrt1: 1696425429
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: 4d76269e743c9844a6a67cdb121275ef
+      ID: 915214423
+      Name: Gup
+      Path: Default Work Unit\Gup
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gup
+        ObjectType: 7
+  EventWwu:
+  - Guid: '{17C0BA07-BA42-4CFB-A5A4-B6DD02EFEA54}'
+    m_lastTimePart2: -1999136975
+    m_lastTimePsrt1: 1480752719
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List:
+    - Guid: 8048ce97eb24fb43bb1fbea602901d3a
+      ID: -483030543
+      Name: Birds_Hurt
+      Path: Default Work Unit\Birds_Hurt
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Birds_Hurt
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 742d1e7141d2ad4ca6b4a69fc88f766c
+      ID: 1560169506
+      Name: Boss
+      Path: Default Work Unit\Boss
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d7252822ad6f8f4a9a21881745a37774
+      ID: -1780555805
+      Name: Died
+      Path: Default Work Unit\Died
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Died
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5e341eb25f012642b598165bad1f0267
+      ID: 529726532
+      Name: End
+      Path: Default Work Unit\End
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: End
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: ebad7ba2128eb24b9a7839f6e6cff416
+      ID: 2122105434
+      Name: Hawk_Scream
+      Path: Default Work Unit\Hawk_Scream
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hawk_Scream
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9b3971f7a01da14786fd2006b4b69a76
+      ID: -1101020126
+      Name: Hurt
+      Path: Default Work Unit\Hurt
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hurt
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 48eac28cf6d4fe4bbca0e53ba7eb7009
+      ID: -181150463
+      Name: InitGame
+      Path: Default Work Unit\InitGame
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: InitGame
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: cbf5f69872e90e40993b4f2205e76cbe
+      ID: -1616736915
+      Name: Level2
+      Path: Default Work Unit\Level2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Level2
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: ec134a0867ebc8458112259ed10913c4
+      ID: -1687411216
+      Name: Menu
+      Path: Default Work Unit\Menu
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e4188d06c6a2c440811f18511800907b
+      ID: -1518773942
+      Name: Menu_Quit
+      Path: Default Work Unit\Menu_Quit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu_Quit
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: cd86fd10ca3c124db0ce1fe4b7dd94ae
+      ID: 1917263390
+      Name: StopMusic
+      Path: Default Work Unit\StopMusic
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopMusic
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a1f8d9636db4c64bab4efa0d58bbcbaf
+      ID: -391765452
+      Name: Web_Attack
+      Path: Default Work Unit\Web_Attack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Web_Attack
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 3ff64b65cce0b04bbd6f5abc29f6ceb1
+      ID: -1770099740
+      Name: Web_Grip
+      Path: Default Work Unit\Web_Grip
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Web_Grip
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b14105b2259fc34e8877fbfd2468bd18
+      ID: 1335561985
+      Name: Web_Launch
+      Path: Default Work Unit\Web_Launch
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Web_Launch
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /PinkFish
+  RtpcWwu:
+  - Guid: '{56C45221-8C9C-4F10-9373-2F64C8073228}'
+    m_lastTimePart2: -1999137170
+    m_lastTimePsrt1: -1738518475
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  StateWwu:
+  - Guid: '{10383359-AEC6-49AA-9E55-F8B67C938845}'
+    m_lastTimePart2: -1999137170
+    m_lastTimePsrt1: -1738128697
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  SwitchWwu:
+  - Guid: '{4D855C56-35EE-4474-AD3C-946F8EE1E52E}'
+    m_lastTimePart2: -1999137031
+    m_lastTimePsrt1: 1743420278
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List:
+    - Guid: 6363d5656ed21b47966dbe5a5071ac71
+      ID: 1957646882
+      Name: Progression
+      Path: Default Work Unit\Progression
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Progression
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 0d9256d289be234099ff7f1ee22f0d6b
+      - bytes: 8abf654c043aa94ca87dd6d9c7d6e5f5
+      ValueIcons:
+      - ElementName: Level1
+        ObjectType: 10
+      - ElementName: Level2
+        ObjectType: 10
+      valueIDs: 6e8da29f6d8da29f
+      values:
+      - Level1
+      - Level2
+  TriggerWwu:
+  - Guid: '{9BBF1A83-6D5C-4FEE-8CC4-642A02E064A0}'
+    m_lastTimePart2: -1999137170
+    m_lastTimePsrt1: -1739797739
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []
