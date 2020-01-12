@@ -17,12 +17,12 @@ public class RopeSystem : MonoBehaviour
 
     public LineRenderer ropeRendererLeft;
     public LayerMask ropeLayerMaskLeft;
-    private float ropeMaxCastDistanceLeft = 30f;
+    private float ropeMaxCastDistance = 55f;
     private List<Vector2> ropePositionsLeft = new List<Vector2>();
 
     private bool distanceSetLeft;
 
-    public float climbSpeedLeft = 3f;
+    public float climbSpeed = 3f;
     private bool isCollidingLeft;
 
     public int clickNoLeft;
@@ -43,12 +43,10 @@ public class RopeSystem : MonoBehaviour
 
     public LineRenderer ropeRendererRight;
     public LayerMask ropeLayerMaskRight;
-    private float ropeMaxCastDistanceRight = 40f;
     private List<Vector2> ropePositionsRight = new List<Vector2>();
 
     private bool distanceSetRight;
 
-    public float climbSpeedRight = 3f;
     private bool isCollidingRight;
 
     public int clickNoRight;
@@ -188,7 +186,7 @@ public class RopeSystem : MonoBehaviour
         // 2
         ropeRendererLeft.enabled = true;
 
-        var hit = Physics2D.Raycast(playerPositionLeft, aimDirection, ropeMaxCastDistanceLeft, ropeLayerMaskLeft);
+        var hit = Physics2D.Raycast(playerPositionLeft, aimDirection, ropeMaxCastDistance, ropeLayerMaskLeft);
 
         // 3
 
@@ -285,17 +283,17 @@ public class RopeSystem : MonoBehaviour
     {
         // 1
         if (Input.GetMouseButton(clickNoLeft) && ropeAttachedLeft && ropeAttachedRight){
-            ropeJointLeft.distance -= Time.deltaTime * climbSpeedLeft;
-            ropeJointRight.distance -= Time.deltaTime * climbSpeedRight;
+            ropeJointLeft.distance -= Time.deltaTime * climbSpeed;
+            ropeJointRight.distance -= Time.deltaTime * climbSpeed;
         }
         else if (Input.GetMouseButton(clickNoLeft) && ropeAttachedLeft)
         {
-            ropeJointLeft.distance -= Time.deltaTime * climbSpeedLeft;
+            ropeJointLeft.distance -= Time.deltaTime * climbSpeed;
         }
 
         else if (Input.GetMouseButton(clickNoLeft) && ropeAttachedRight)
         {
-            ropeJointRight.distance -= Time.deltaTime * climbSpeedRight;
+            ropeJointRight.distance -= Time.deltaTime * climbSpeed;
         }
     }
 
@@ -366,7 +364,7 @@ public class RopeSystem : MonoBehaviour
         // 2
         ropeRendererRight.enabled = true;
 
-        var hit = Physics2D.Raycast(playerPositionRight, aimDirection, ropeMaxCastDistanceRight, ropeLayerMaskRight);
+        var hit = Physics2D.Raycast(playerPositionRight, aimDirection, ropeMaxCastDistance, ropeLayerMaskRight);
 
         // 3
 
