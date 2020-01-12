@@ -36,10 +36,10 @@ public class psuedoLaunch : MonoBehaviour
 
             if (!retract)
             {
-                if (length <= 30f)
+                if (length <= 50f)
                 {
                     length = GetComponent<SpriteRenderer>().size.x;
-                    length += 1f;
+                    length += 2f;
                     GetComponent<SpriteRenderer>().size = new Vector2(length, 1);
 
                         GetComponent<CircleCollider2D>().offset = new Vector2(length, 0);
@@ -91,7 +91,7 @@ public class psuedoLaunch : MonoBehaviour
                 if (length >= 1)
                 {
                     length = GetComponent<SpriteRenderer>().size.x;
-                    length -= 4f;
+                    length -= 6f;
                     GetComponent<SpriteRenderer>().size = new Vector2(length, 1);
                 }
                 else

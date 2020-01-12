@@ -17,7 +17,7 @@ public class RopeSystem : MonoBehaviour
 
     public LineRenderer ropeRendererLeft;
     public LayerMask ropeLayerMaskLeft;
-    private float ropeMaxCastDistance = 55f;
+    public float ropeMaxCastDistance = 50f;
     private List<Vector2> ropePositionsLeft = new List<Vector2>();
 
     private bool distanceSetLeft;
