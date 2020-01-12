@@ -1692,6 +1692,7 @@ GameObject:
   - component: {fileID: 2027986565395095002}
   - component: {fileID: 2027986565395095000}
   - component: {fileID: 2027986565395095003}
+  - component: {fileID: 2027986565395095004}
   m_Layer: 0
   m_Name: RopeHingeAnchorR
   m_TagString: Untagged
@@ -1763,6 +1764,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mech: {fileID: 3480327089868276775}
+--- !u!114 &2027986565395095004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027986565395095001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7742cef0818f4008a1c7eafa675ad83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2027986565639044080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1802,6 +1815,7 @@ GameObject:
   - component: {fileID: 2027986565639044086}
   - component: {fileID: 2027986565639044087}
   - component: {fileID: 2027986565639044080}
+  - component: {fileID: 2027986565639044085}
   m_Layer: 0
   m_Name: RopeHingeAnchorL
   m_TagString: Untagged
@@ -1809,6 +1823,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2027986565639044085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027986565639044084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7742cef0818f4008a1c7eafa675ad83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &2027986565639044086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2755,6 +2781,7 @@ GameObject:
   - component: {fileID: 4962326173561262246}
   - component: {fileID: 2629317956956619991}
   - component: {fileID: 56028656}
+  - component: {fileID: 3480327089868276776}
   m_Layer: 0
   m_Name: PseudoLauncherR
   m_TagString: Untagged
@@ -2762,6 +2789,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3480327089868276776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480327089868276775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7742cef0818f4008a1c7eafa675ad83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &4962326173561262246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2906,6 +2945,7 @@ GameObject:
   - component: {fileID: 7672652689231900586}
   - component: {fileID: 1758991070}
   - component: {fileID: 1758991071}
+  - component: {fileID: 8287294354832482487}
   m_Layer: 0
   m_Name: PseudoLauncherL
   m_TagString: Untagged
@@ -2913,3 +2953,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8287294354832482487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8287294354832482486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7742cef0818f4008a1c7eafa675ad83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
