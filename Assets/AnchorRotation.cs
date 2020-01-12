@@ -11,7 +11,8 @@ public class AnchorRotation : MonoBehaviour
     void Update()
     {
         hold_transform = transform;
-        var aimAngle = Mathf.Atan2(transform.localPosition.y, transform.localPosition.x);
+        mech_position = mech.transform.localPosition;
+        var aimAngle = Mathf.Atan2(transform.localPosition.y - mech_position.y, transform.localPosition.x - mech_position.x);
         hold_transform.localEulerAngles = new Vector3(0, 0, aimAngle * Mathf.Rad2Deg);
         transform.rotation = hold_transform.rotation;
     }
