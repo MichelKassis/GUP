@@ -27,7 +27,7 @@ public class SceneLoader : MonoBehaviour
     }
     public void LoadMainSpringyScene()
     {
-        SceneManager.LoadScene("FINAL Free Touch");
+        SceneManager.LoadScene("FINAL Free Touch 0");
     }
 
 }
