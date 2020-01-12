@@ -365,6 +365,31 @@ PrefabInstance:
       objectReference: {fileID: 1483312214}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 913660e7d07554ce9a271d08b3461a31, type: 3}
+--- !u!1 &76019057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3362084144110139718, guid: 913660e7d07554ce9a271d08b3461a31,
+    type: 3}
+  m_PrefabInstance: {fileID: 76019056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &76019058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76019057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e6aa2a761fa5ca4f9e87b6e078275b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopMusic:
+    ID: 1917263390
+    valueGuid: cd86fd10ca3c124db0ce1fe4b7dd94ae
+  bossMusic:
+    ID: 1560169506
+    valueGuid: 742d1e7141d2ad4ca6b4a69fc88f766c
+  wwiseobj: {fileID: 1483312214}
 --- !u!1 &134734848
 GameObject:
   m_ObjectHideFlags: 0
