@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public void LoadIntro1Scene()
+    {
+        SceneManager.LoadScene("Intro1");
+    }
     public void LoadIntro2Scene()
     {
         SceneManager.LoadScene("Intro2");
@@ -17,4 +21,13 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Intro4");
     }
+    public void LoadMainSlowScene()
+    {
+        SceneManager.LoadScene("FINAL ASSEMBLY SCENE");
+    }
+    public void LoadMainSpringyScene()
+    {
+        SceneManager.LoadScene("FINAL Free Touch");
+    }
+
 }
