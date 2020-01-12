@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="89">
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1578814175" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Attenuations\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Audio Devices\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Control Surface Sessions\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Conversion Settings\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1536675441" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Effects\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Effects\Factory Effects.wwu" DateLow="1536675441" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Events\Default Work Unit.wwu" DateLow="1578814248" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Game Parameters\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1578806739" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Mixing Sessions\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Modulators\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\PinkFish.TempAccount.wsettings" DateLow="1578814276" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\PinkFish.wproj" DateLow="1578820242" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Presets\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Queries\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Queries\Factory Queries.wwu" DateLow="1536675441" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\SoundBanks\Default Work Unit.wwu" DateLow="1578814270" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1578814248" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\States\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Switches\Default Work Unit.wwu" DateLow="1578790223" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Triggers\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\Virtual Acoustics\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1578812049" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\Attenuations\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\Audio Devices\Default Work Unit.wwu" DateLow="1578730604" DateHigh="0"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\TempAccount\Desktop\GameJams\PinkFish\PinkFish\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -23,10 +23,10 @@
 				<Event Id="2122105434" Name="Hawk_Scream" ObjectPath="\Events\Default Work Unit\Hawk_Scream"/>
 				<Event Id="3193947170" Name="Hurt" ObjectPath="\Events\Default Work Unit\Hurt"/>
 				<Event Id="4113816833" Name="InitGame" ObjectPath="\Events\Default Work Unit\InitGame"/>
-				<Event Id="2678230381" Name="Level2" ObjectPath="\Events\Default Work Unit\Level2"/>
+				<Event Id="2678230381" Name="Level2" ObjectPath="\Events\Default Work Unit\Level2" MaxAttenuation="0.000000"/>
 				<Event Id="2607556080" Name="Menu" ObjectPath="\Events\Default Work Unit\Menu"/>
-				<Event Id="2776193354" Name="Menu_Quit" ObjectPath="\Events\Default Work Unit\Menu_Quit"/>
-				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic"/>
+				<Event Id="2776193354" Name="Menu_Quit" ObjectPath="\Events\Default Work Unit\Menu_Quit" MaxAttenuation="0.000000"/>
+				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0.000000"/>
 				<Event Id="3903201844" Name="Web_Attack" ObjectPath="\Events\Default Work Unit\Web_Attack"/>
 				<Event Id="2524867556" Name="Web_Grip" ObjectPath="\Events\Default Work Unit\Web_Grip"/>
 				<Event Id="1335561985" Name="Web_Launch" ObjectPath="\Events\Default Work Unit\Web_Launch"/>
