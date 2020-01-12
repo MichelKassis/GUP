@@ -29,5 +29,8 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("FINAL Free Touch 0");
     }
-
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }

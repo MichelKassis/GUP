@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final Free Touch 0.unity
     guid: 2516054a114794f35ade28556eedc61f
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 4d5cce3ac8dedb34b93d63c33ac7f0a5
   m_configObjects: {}
