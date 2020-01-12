@@ -903,8 +903,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284, y: -95}
-  m_SizeDelta: {x: 684.6, y: 57.7}
+  m_AnchoredPosition: {x: -216, y: -95}
+  m_SizeDelta: {x: 820.7, y: 57.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832320939
 MonoBehaviour:
@@ -942,7 +942,8 @@ MonoBehaviour:
     G''UP was completed for
     the McGill GameJam 2020. Thanks organizers!
 
-    To infishity and beyond!'
+    Good luck, guppies! To infishity
+    and beyond!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d09caadde225a31408c7a019b9a67c73, type: 2}
   m_sharedMaterial: {fileID: -7913754207517053989, guid: d09caadde225a31408c7a019b9a67c73,
@@ -1012,10 +1013,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: -410.6832, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1832320939}
-    characterCount: 185
+    characterCount: 205
     spriteCount: 0
-    spaceCount: 27
-    wordCount: 26
+    spaceCount: 30
+    wordCount: 29
     linkCount: 0
     lineCount: 11
     pageCount: 1
@@ -1072,6 +1073,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddf87b562c14c241ac396844d64bc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopMusicMenu:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  startMusicGame:
+    ID: 0
+    valueGuid: 00000000000000000000000000000000
+  wwiseObj: {fileID: 0}
 --- !u!4 &1986330218
 Transform:
   m_ObjectHideFlags: 0
