@@ -69,11 +69,11 @@ public class psuedoLaunch : MonoBehaviour
                                 GetComponent<SpriteRenderer>().enabled = false;
                                 if (left)
                                 {
-                                    mech.GetComponent<RopeSystemL>().CastRope(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(length, 1));
+                                    mech.GetComponent<RopeSystem>().CastRopeLeft(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(1, 0));
                                 }
                                 else
                                 {
-                                    mech.GetComponent<RopeSystemR>().CastRope(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(length, 1));
+                                    mech.GetComponent<RopeSystem>().CastRopeRight(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(1, 0));
                                 }
                                 retract = true;
                             }

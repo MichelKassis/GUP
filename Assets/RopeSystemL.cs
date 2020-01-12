@@ -5,236 +5,238 @@ using System.Linq;
 
 public class RopeSystemL : MonoBehaviour
 {
-    public GameObject pseudoLauncher;
+    public GameObject pseudoLauncherLeft;
+    public GameObject ropeHingeAnchorLeft;
+    public DistanceJoint2D ropeJointLeft;
+    public Transform crosshairLeft;
+    public SpriteRenderer crosshairSpriteLeft;
+    private bool ropeAttachedLeft;
+    private Vector2 playerPositionLeft;
+    private Rigidbody2D ropeHingeAnchorRbLeft;
+    private SpriteRenderer ropeHingeAnchorSpriteLeft;
 
-    public GameObject ropeHingeAnchor;
-    public DistanceJoint2D ropeJoint;
-    public Transform crosshair;
-    public SpriteRenderer crosshairSprite;
-    private bool ropeAttached;
-    private Vector2 playerPosition;
-    private Rigidbody2D ropeHingeAnchorRb;
-    private SpriteRenderer ropeHingeAnchorSprite;
+    public LineRenderer ropeRendererLeft;
+    public LayerMask ropeLayerMaskLeft;
+    private float ropeMaxCastDistanceLeft = 30f;
+    private List<Vector2> ropePositionsLeft = new List<Vector2>();
 
-    public LineRenderer ropeRenderer;
-    public LayerMask ropeLayerMask;
-    private float ropeMaxCastDistance = 30f;
-    private List<Vector2> ropePositions = new List<Vector2>();
+    private bool distanceSetLeft;
 
-    private bool distanceSet;
+    public float climbSpeedLeft = 3f;
+    private bool isCollidingLeft;
 
-    public float climbSpeed = 3f;
-    private bool isColliding;
+    public int clickNoLeft;
 
-    public int clickNo;
+    public float aimAngleLeft;
 
-    public float aimAngle;
+    
 
-    void Awake()
+
+    void AwakeLeft()
     {
         // 2
-        ropeJoint.enabled = false;
-        playerPosition = pseudoLauncher.transform.position;
-        ropeHingeAnchorRb = ropeHingeAnchor.GetComponent<Rigidbody2D>();
-        ropeHingeAnchorSprite = ropeHingeAnchor.GetComponent<SpriteRenderer>();
+        ropeJointLeft.enabled = false;
+        playerPositionLeft = pseudoLauncherLeft.transform.position;
+        ropeHingeAnchorRbLeft = ropeHingeAnchorLeft.GetComponent<Rigidbody2D>();
+        ropeHingeAnchorSpriteLeft = ropeHingeAnchorLeft.GetComponent<SpriteRenderer>();
     }
 
-    void Update()
+    void UpdateLeft()
     {
         // 3
         var worldMousePosition =
             Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f));
-        var facingDirection = worldMousePosition - pseudoLauncher.transform.position;
+        var facingDirection = worldMousePosition - pseudoLauncherLeft.transform.position;
 
-        aimAngle = Mathf.Atan2(facingDirection.y, facingDirection.x);
+        aimAngleLeft = Mathf.Atan2(facingDirection.y, facingDirection.x);
 
-        if (aimAngle < 0f)
+        if (aimAngleLeft < 0f)
         {
-            aimAngle = Mathf.PI * 2 + aimAngle;
+            aimAngleLeft = Mathf.PI * 2 + aimAngleLeft;
         }
 
 
         // 4
-        var aimDirection = Quaternion.Euler(0, 0, aimAngle * Mathf.Rad2Deg) * Vector2.right;
+        var aimDirection = Quaternion.Euler(0, 0, aimAngleLeft * Mathf.Rad2Deg) * Vector2.right;
         // 5
-        playerPosition = pseudoLauncher.transform.position;
+        playerPositionLeft = pseudoLauncherLeft.transform.position;
 
         // 6
 
-        if (!pseudoLauncher.GetComponent<psuedoLaunch>().launched)
+        if (!pseudoLauncherLeft.GetComponent<psuedoLaunch>().launched)
         {
-            pseudoLauncher.transform.localEulerAngles = new Vector3(0, 0, aimAngle * Mathf.Rad2Deg - transform.eulerAngles.z);
+            pseudoLauncherLeft.transform.localEulerAngles = new Vector3(0, 0, aimAngleLeft * Mathf.Rad2Deg - transform.eulerAngles.z);
         }
 
-        if (!ropeAttached)
+        if (!ropeAttachedLeft)
         {
-            SetCrosshairPosition(aimAngle);
+            SetCrosshairPositionLeft(aimAngleLeft);
         }
         else
         {
-            crosshairSprite.enabled = false;
+            crosshairSpriteLeft.enabled = false;
         }
 
-        HandleInput();
-        UpdateRopePositions();
-        HandleRopeLength();
+        HandleInputLeft();
+        UpdateRopePositionsLeft();
+        HandleRopeLengthLeft();
     }
 
-    private void SetCrosshairPosition(float aimAngle)
+    private void SetCrosshairPositionLeft(float aimAngleLeft)
     {
-        if (!crosshairSprite.enabled)
+        if (!crosshairSpriteLeft.enabled)
         {
-            crosshairSprite.enabled = true;
+            crosshairSpriteLeft.enabled = true;
         }
 
-        var x = pseudoLauncher.transform.position.x + 4.2f * Mathf.Cos(aimAngle);
-        var y = pseudoLauncher.transform.position.y + 4.2f * Mathf.Sin(aimAngle);
+        var x = pseudoLauncherLeft.transform.position.x + 4.2f * Mathf.Cos(aimAngleLeft);
+        var y = pseudoLauncherLeft.transform.position.y + 4.2f * Mathf.Sin(aimAngleLeft);
 
         var crossHairPosition = new Vector3(x, y, 0);
-        crosshair.transform.position = crossHairPosition;
+        crosshairLeft.transform.position = crossHairPosition;
     }
 
-    private void HandleInput()
+    private void HandleInputLeft()
     {
-        if (Input.GetMouseButton(clickNo))
+        if (Input.GetMouseButtonDown(clickNoLeft))
         {
-            if (ropeAttached) return;
+            if (ropeAttachedLeft) return;
 
-            pseudoLauncher.GetComponent<SpriteRenderer>().enabled = true;
+            pseudoLauncherLeft.GetComponent<SpriteRenderer>().enabled = true;
 
-            if (pseudoLauncher.GetComponent<psuedoLaunch>().launched != true)
+            if (pseudoLauncherLeft.GetComponent<psuedoLaunch>().launched != true)
             {
-                if (pseudoLauncher.GetComponent<psuedoLaunch>().readied)
+                if (pseudoLauncherLeft.GetComponent<psuedoLaunch>().readied)
                 {
-                    pseudoLauncher.GetComponent<psuedoLaunch>().launch();
+                    pseudoLauncherLeft.GetComponent<psuedoLaunch>().launch();
                 }
             }
         }
-        if (Input.GetMouseButtonUp(clickNo))
-        {
-            ResetRope();
-        }
+        // if (Input.GetMouseButtonUp(clickNoLeft))
+        // {
+        //     ResetRope();
+        // }
     }
 
-    public void CastRope(Vector3 aimDirection)
+    public void CastRopeLeft(Vector3 aimDirection)
     {
         // 2
-        ropeRenderer.enabled = true;
+        ropeRendererLeft.enabled = true;
 
-        var hit = Physics2D.Raycast(playerPosition, aimDirection, ropeMaxCastDistance, ropeLayerMask);
+        var hit = Physics2D.Raycast(playerPositionLeft, aimDirection, ropeMaxCastDistanceLeft, ropeLayerMaskLeft);
 
         // 3
 
-        ropeAttached = true;
-        if (!ropePositions.Contains(hit.point))
+        ropeAttachedLeft = true;
+        if (!ropePositionsLeft.Contains(hit.point))
         {
             // 4
             // Jump slightly to distance the player a little from the ground after grappling to something.
             //transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 2f), ForceMode2D.Impulse);
-            ropePositions.Add(hit.point);
-            ropeJoint.distance = Vector2.Distance(playerPosition, hit.point) - 1f;
-            ropeJoint.enabled = true;
-            ropeHingeAnchorSprite.enabled = true;
+            ropePositionsLeft.Add(hit.point);
+            ropeJointLeft.distance = Vector2.Distance(playerPositionLeft, hit.point) - 1f;
+            ropeJointLeft.enabled = true;
+            ropeHingeAnchorSpriteLeft.enabled = true;
         }
         // 5
     }
 
     // 6
-    private void ResetRope()
+    private void ResetRopeLeft()
     {
-        ropeJoint.enabled = false;
-        ropeAttached = false;
-        ropeRenderer.positionCount = 2;
-        ropeRenderer.SetPosition(0, pseudoLauncher.transform.position);
-        ropeRenderer.SetPosition(1, pseudoLauncher.transform.position);
-        ropePositions.Clear();
-        ropeHingeAnchorSprite.enabled = false;
-        pseudoLauncher.GetComponent<SpriteRenderer>().enabled = true;
+        ropeJointLeft.enabled = false;
+        ropeAttachedLeft = false;
+        ropeRendererLeft.positionCount = 2;
+        ropeRendererLeft.SetPosition(0, pseudoLauncherLeft.transform.position);
+        ropeRendererLeft.SetPosition(1, pseudoLauncherLeft.transform.position);
+        ropePositionsLeft.Clear();
+        ropeHingeAnchorSpriteLeft.enabled = false;
+        pseudoLauncherLeft.GetComponent<SpriteRenderer>().enabled = true;
     }
 
-    private void UpdateRopePositions()
+    private void UpdateRopePositionsLeft()
     {
         // 1
-        if (!ropeAttached)
+        if (!ropeAttachedLeft)
         {
             return;
         }
 
         // 2
-        ropeRenderer.positionCount = ropePositions.Count + 1;
+        ropeRendererLeft.positionCount = ropePositionsLeft.Count + 1;
 
         // 3
-        for (var i = ropeRenderer.positionCount - 1; i >= 0; i--)
+        for (var i = ropeRendererLeft.positionCount - 1; i >= 0; i--)
         {
-            if (i != ropeRenderer.positionCount - 1) // if not the Last point of line renderer
+            if (i != ropeRendererLeft.positionCount - 1) // if not the Last point of line renderer
             {
-                ropeRenderer.SetPosition(i, ropePositions[i]);
+                ropeRendererLeft.SetPosition(i, ropePositionsLeft[i]);
 
                 // 4
-                if (i == ropePositions.Count - 1 || ropePositions.Count == 1)
+                if (i == ropePositionsLeft.Count - 1 || ropePositionsLeft.Count == 1)
                 {
-                    var ropePosition = ropePositions[ropePositions.Count - 1];
-                    if (ropePositions.Count == 1)
+                    var ropePosition = ropePositionsLeft[ropePositionsLeft.Count - 1];
+                    if (ropePositionsLeft.Count == 1)
                     {
-                        ropeHingeAnchorRb.transform.position = ropePosition;
-                        if (!distanceSet)
+                        ropeHingeAnchorRbLeft.transform.position = ropePosition;
+                        if (!distanceSetLeft)
                         {
-                            ropeJoint.distance = Vector2.Distance(pseudoLauncher.transform.position, ropePosition);
-                            distanceSet = true;
+                            ropeJointLeft.distance = Vector2.Distance(pseudoLauncherLeft.transform.position, ropePosition);
+                            distanceSetLeft = true;
                         }
                     }
                     else
                     {
-                        ropeHingeAnchorRb.transform.position = ropePosition;
-                        if (!distanceSet)
+                        ropeHingeAnchorRbLeft.transform.position = ropePosition;
+                        if (!distanceSetLeft)
                         {
-                            ropeJoint.distance = Vector2.Distance(pseudoLauncher.transform.position, ropePosition);
-                            distanceSet = true;
+                            ropeJointLeft.distance = Vector2.Distance(pseudoLauncherLeft.transform.position, ropePosition);
+                            distanceSetLeft = true;
                         }
                     }
                 }
                 // 5
-                else if (i - 1 == ropePositions.IndexOf(ropePositions.Last()))
+                else if (i - 1 == ropePositionsLeft.IndexOf(ropePositionsLeft.Last()))
                 {
-                    var ropePosition = ropePositions.Last();
-                    ropeHingeAnchorRb.transform.position = ropePosition;
-                    if (!distanceSet)
+                    var ropePosition = ropePositionsLeft.Last();
+                    ropeHingeAnchorRbLeft.transform.position = ropePosition;
+                    if (!distanceSetLeft)
                     {
-                        ropeJoint.distance = Vector2.Distance(pseudoLauncher.transform.position, ropePosition);
-                        distanceSet = true;
+                        ropeJointLeft.distance = Vector2.Distance(pseudoLauncherLeft.transform.position, ropePosition);
+                        distanceSetLeft = true;
                     }
                 }
             }
             else
             {
                 // 6
-                ropeRenderer.SetPosition(i, pseudoLauncher.transform.position);
+                ropeRendererLeft.SetPosition(i, pseudoLauncherLeft.transform.position);
             }
         }
     }
 
-    private void HandleRopeLength()
+    private void HandleRopeLengthLeft()
     {
         // 1
-        if (Input.GetAxis("Vertical") >= 1f && ropeAttached && !isColliding)
+        if (Input.GetMouseButton(clickNoLeft) && ropeAttachedLeft && !isCollidingLeft)
         {
-            ropeJoint.distance -= Time.deltaTime * climbSpeed;
+            ropeJointLeft.distance -= Time.deltaTime * climbSpeedLeft;
         }
         /*
-        else if (Input.GetAxis("Vertical") < 0f && ropeAttached)
+        else if (Input.GetAxis("Vertical") < 0f && ropeAttachedLeft)
         {
-            ropeJoint.distance += Time.deltaTime * climbSpeed;
+            ropeJointLeft.distance += Time.deltaTime * cLeftlimbSpeed;
         }
         */
     }
 
     void OnTriggerStay2D(Collider2D colliderStay)
     {
-        isColliding = true;
+        isCollidingLeft = true;
     }
 
     private void OnTriggerExit2D(Collider2D colliderOnExit)
     {
-        isColliding = false;
+        isCollidingLeft = false;
     }
 }

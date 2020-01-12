@@ -1064,6 +1064,7 @@ GameObject:
   - component: {fileID: 8618438285106106499}
   - component: {fileID: 2027986565610381015}
   - component: {fileID: 2027986565610381014}
+  - component: {fileID: 8225411809200455484}
   m_Layer: 0
   m_Name: FishNewHooks
   m_TagString: Untagged
@@ -1376,6 +1377,19 @@ DistanceJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_MaxDistanceOnly: 0
+--- !u!114 &8225411809200455484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027986565610381022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b1452f81d2a2d46a782928f9b1e3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rope: []
 --- !u!1 &2027986565688599930
 GameObject:
   m_ObjectHideFlags: 0
