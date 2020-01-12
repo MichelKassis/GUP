@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -53,6 +53,11 @@ public class RopeSystemTouch : MonoBehaviour
 
     public float aimAngleRight;
     private bool didLeftRope = false;
+
+    public AK.Wwise.Event ropeLaunch;
+    public AK.Wwise.Event ropeGrip;
+
+    public GameObject wwiseObj;
 
     void Awake()
     {
@@ -120,12 +125,15 @@ public class RopeSystemTouch : MonoBehaviour
     public void HandleInput()
     {
         retractToggle = false;
-
+        ropeLaunch.Post(wwiseObj);
         if (!didLeftRope)
         {
             ResetRopeLeft();
 
-            if (ropeAttachedLeft) return;
+            if (ropeAttachedLeft) {
+                ropeGrip.Post(wwiseObj);
+
+                return; }
 
             pseudoLauncherLeft.GetComponent<SpriteRenderer>().enabled = true;
 
@@ -141,7 +149,9 @@ public class RopeSystemTouch : MonoBehaviour
         {
             ResetRopeRight();
 
-            if (ropeAttachedRight) return;
+            if (ropeAttachedRight) {
+                ropeGrip.Post(wwiseObj);
+                return; }
 
             pseudoLauncherRight.GetComponent<SpriteRenderer>().enabled = true;
 
