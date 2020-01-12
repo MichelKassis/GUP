@@ -140,10 +140,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4478609456797465083}
-  offset: {x: 0, y: 5}
+  offset: {x: 0, y: 5, z: 0}
   speed: 2
   size: 20
   min_dist: 0.5
+  minX: 4.1
+  maxX: -3.9
+  minY: 54
+  maxY: 100
 --- !u!4 &828999268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8594806094984295201, guid: 441a0c1e8e4b349a8b42055a5583839b,
@@ -2667,7 +2671,7 @@ PrefabInstance:
     - target: {fileID: 3311983607957750804, guid: 673392b5dc4754fe59c3402b0fdbd5c2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.24
+      value: 55.4
       objectReference: {fileID: 0}
     - target: {fileID: 3311983607957750804, guid: 673392b5dc4754fe59c3402b0fdbd5c2,
         type: 3}
@@ -2732,7 +2736,12 @@ PrefabInstance:
     - target: {fileID: 3311983607957751019, guid: 673392b5dc4754fe59c3402b0fdbd5c2,
         type: 3}
       propertyPath: orthographic size
-      value: 20.5
+      value: 59.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3311983607957751019, guid: 673392b5dc4754fe59c3402b0fdbd5c2,
+        type: 3}
+      propertyPath: orthographic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 673392b5dc4754fe59c3402b0fdbd5c2, type: 3}
