@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6608104824078716574}
   - component: {fileID: 6608104824078716573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy Container
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,6 +141,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &4417838494581051624 stripped
@@ -219,6 +239,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Egg in Helmet (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
@@ -299,6 +339,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &3823295647584195666 stripped
@@ -377,6 +437,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Egg in Helmet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
@@ -457,6 +537,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &3556738204400463650 stripped
@@ -535,6 +635,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Egg in Helmet (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
@@ -615,6 +735,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &1828258868908295551 stripped
@@ -693,6 +833,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Egg in Helmet (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
@@ -773,6 +933,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &1031926148249328335 stripped
@@ -851,6 +1031,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Egg in Helmet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
@@ -931,6 +1131,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &7913642901436501916 stripped
@@ -1009,6 +1229,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Egg in Helmet (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
@@ -1089,6 +1329,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &7255690614363392849 stripped
@@ -1113,6 +1373,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hawk (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232344993496825609, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1232344993496825610, guid: 11ad37919d9962d4183e1fdae4275bf3,
         type: 3}
@@ -1169,6 +1434,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2189594822938206359, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388707609298844916, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264341666076793309, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290936740994450082, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ad37919d9962d4183e1fdae4275bf3, type: 3}
 --- !u!4 &5381413897607004873 stripped
@@ -1193,6 +1478,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hawk (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232344993496825609, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1232344993496825610, guid: 11ad37919d9962d4183e1fdae4275bf3,
         type: 3}
@@ -1249,6 +1539,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2189594822938206359, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388707609298844916, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264341666076793309, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290936740994450082, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ad37919d9962d4183e1fdae4275bf3, type: 3}
 --- !u!4 &5381413897408083795 stripped
@@ -1273,6 +1583,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hawk (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232344993496825609, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1232344993496825610, guid: 11ad37919d9962d4183e1fdae4275bf3,
         type: 3}
@@ -1329,6 +1644,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2189594822938206359, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388707609298844916, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264341666076793309, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290936740994450082, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ad37919d9962d4183e1fdae4275bf3, type: 3}
 --- !u!4 &5381413898122062085 stripped
@@ -1353,6 +1688,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hawk (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232344993496825609, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1232344993496825610, guid: 11ad37919d9962d4183e1fdae4275bf3,
         type: 3}
@@ -1409,6 +1749,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2189594822938206359, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388707609298844916, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264341666076793309, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290936740994450082, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ad37919d9962d4183e1fdae4275bf3, type: 3}
 --- !u!4 &5381413897987710017 stripped
@@ -1433,6 +1793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hawk (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232344993496825609, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1232344993496825610, guid: 11ad37919d9962d4183e1fdae4275bf3,
         type: 3}
@@ -1489,6 +1854,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2189594822938206359, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388707609298844916, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264341666076793309, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290936740994450082, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ad37919d9962d4183e1fdae4275bf3, type: 3}
 --- !u!4 &5381413898615601468 stripped
@@ -1513,6 +1898,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hawk (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232344993496825609, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1232344993496825610, guid: 11ad37919d9962d4183e1fdae4275bf3,
         type: 3}
@@ -1569,6 +1959,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2189594822938206359, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388707609298844916, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264341666076793309, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290936740994450082, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ad37919d9962d4183e1fdae4275bf3, type: 3}
 --- !u!4 &5381413898684903036 stripped
@@ -1584,10 +1994,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6608104824078716574}
     m_Modifications:
+    - target: {fileID: 3595563785650887396, guid: 13dac3270e557454bb251d6a1cee41f6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595563786243107902, guid: 13dac3270e557454bb251d6a1cee41f6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595563786769735099, guid: 13dac3270e557454bb251d6a1cee41f6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3595563787714490024, guid: 13dac3270e557454bb251d6a1cee41f6,
         type: 3}
       propertyPath: m_Name
       value: Eagle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595563787714490024, guid: 13dac3270e557454bb251d6a1cee41f6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3595563787714490030, guid: 13dac3270e557454bb251d6a1cee41f6,
         type: 3}
@@ -1701,6 +2131,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hawk
       objectReference: {fileID: 0}
+    - target: {fileID: 1232344993496825609, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1232344993496825610, guid: 11ad37919d9962d4183e1fdae4275bf3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1755,6 +2190,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2189594822938206359, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388707609298844916, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264341666076793309, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290936740994450082, guid: 11ad37919d9962d4183e1fdae4275bf3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ad37919d9962d4183e1fdae4275bf3, type: 3}
@@ -1835,6 +2290,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &6924848701072167391 stripped
@@ -1913,6 +2388,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Egg in Helmet (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
@@ -1993,6 +2488,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &5961143235873131951 stripped
@@ -2072,6 +2587,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Egg in Helmet (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
 --- !u!4 &5919148437842136749 stripped
@@ -2150,6 +2685,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Egg in Helmet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161407055589, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917161903946106, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4576917162262200310, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365287890688059678, guid: 012f6664ec6006141ad9f9d824702afa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012f6664ec6006141ad9f9d824702afa, type: 3}
