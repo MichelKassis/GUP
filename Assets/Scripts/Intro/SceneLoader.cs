@@ -33,4 +33,16 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+    public void LoadHowToPlay()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 }
