@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemySpawnerScript : MonoBehaviour
 {
+    public GameObject reference;
     public GameObject enemy;
     float randX;
     Vector2 whereToSpawn;
@@ -23,7 +24,8 @@ public class EnemySpawnerScript : MonoBehaviour
             nextSpawn = Time.time + spawnRate;
             randX = Random.Range(-8.4f,8.4f);
             whereToSpawn = new Vector2 (randX, transform.position.y);
-            Instantiate(enemy, whereToSpawn, Quaternion.identity);
+            var spawned = Instantiate(enemy, whereToSpawn, Quaternion.identity);
+            spawned.GetComponent<Enemy>().mainCharacter = reference.GetComponent<Enemy>().mainCharacter;
         }   
     }
 }
