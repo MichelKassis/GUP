@@ -2952,6 +2952,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   aimAngleRight: 0
+  ropeLaunch:
+    ID: 1335561985
+    valueGuid: b14105b2259fc34e8877fbfd2468bd18
+  ropeGrip:
+    ID: -1770099740
+    valueGuid: 3ff64b65cce0b04bbd6f5abc29f6ceb1
+  wwiseObj: {fileID: 0}
 --- !u!1001 &2301133460636054682
 PrefabInstance:
   m_ObjectHideFlags: 0

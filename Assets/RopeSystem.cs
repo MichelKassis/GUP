@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
@@ -52,7 +52,12 @@ public class RopeSystem : MonoBehaviour
     public int clickNoRight;
 
     public float aimAngleRight;
-    private bool didLeftRope = false; 
+    private bool didLeftRope = false;
+
+    public AK.Wwise.Event ropeLaunch;
+    public AK.Wwise.Event ropeGrip;
+
+    public GameObject wwiseObj;
 
     void Awake() {
         AwakeLeft();
@@ -140,9 +145,12 @@ public class RopeSystem : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(clickNoLeft))
         {
+            ropeLaunch.Post(wwiseObj);
             if (!didLeftRope)
             {
-                if (ropeAttachedLeft) return;
+                if (ropeAttachedLeft) {
+                    ropeGrip.Post(wwiseObj);
+                    return; }
 
                 pseudoLauncherLeft.GetComponent<SpriteRenderer>().enabled = true;
 
@@ -156,7 +164,10 @@ public class RopeSystem : MonoBehaviour
             }
             else 
             {
-                if (ropeAttachedRight) return;
+                if (ropeAttachedRight) {
+                    ropeGrip.Post(wwiseObj);
+                    return;
+                }
 
                 pseudoLauncherRight.GetComponent<SpriteRenderer>().enabled = true;
 
@@ -367,7 +378,7 @@ public class RopeSystem : MonoBehaviour
         var hit = Physics2D.Raycast(playerPositionRight, aimDirection, ropeMaxCastDistance, ropeLayerMaskRight);
 
         // 3
-
+        
         ropeAttachedRight = true;
         didLeftRope = false;
         if (!ropePositionsRight.Contains(hit.point))
