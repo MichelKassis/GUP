@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Water Level.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Intro1.unity
+    guid: d6866c655f5a8d747945d1959d045011
+  - enabled: 1
+    path: Assets/Scenes/Intro2.unity
+    guid: 8e3ac7307daf7c049be811da7dfea95a
+  - enabled: 1
+    path: Assets/Scenes/Intro3.unity
+    guid: f4c9caee10808824a8fe1f50aed52e6e
+  - enabled: 1
+    path: Assets/Scenes/Intro4.unity
+    guid: 8fb5c830eb974cc498fc6df119192781
   m_configObjects: {}
