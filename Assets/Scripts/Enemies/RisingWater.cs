@@ -5,14 +5,14 @@ using UnityEngine;
 // The water rises slowly, if it touches fish it dies
 
 public class RisingWater : MonoBehaviour {
-    public float speed = 1;
+    public float speed = 3.0f;
 
     private bool mainCharacterDied = false;
     private float deadMainCharacterY;
 
     void Update() {
         if (!mainCharacterDied || transform.localPosition.y < deadMainCharacterY + 10) {
-            transform.localPosition += speed * Vector3.up / 60;
+            transform.localPosition += speed * Vector3.up * Time.deltaTime;
         }
     }
 
