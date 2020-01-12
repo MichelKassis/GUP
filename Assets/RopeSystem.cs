@@ -284,7 +284,11 @@ public class RopeSystem : MonoBehaviour
     private void HandleRopeLength()
     {
         // 1
-        if (Input.GetMouseButton(clickNoLeft) && ropeAttachedLeft)
+        if (Input.GetMouseButton(clickNoLeft) && ropeAttachedLeft && ropeAttachedRight){
+            ropeJointLeft.distance -= Time.deltaTime * climbSpeedLeft;
+            ropeJointRight.distance -= Time.deltaTime * climbSpeedRight;
+        }
+        else if (Input.GetMouseButton(clickNoLeft) && ropeAttachedLeft)
         {
             ropeJointLeft.distance -= Time.deltaTime * climbSpeedLeft;
         }
@@ -292,11 +296,6 @@ public class RopeSystem : MonoBehaviour
         else if (Input.GetMouseButton(clickNoLeft) && ropeAttachedRight)
         {
             ropeJointRight.distance -= Time.deltaTime * climbSpeedRight;
-        }
-        else if (Input.GetMouseButton(clickNoLeft) && ropeAttachedLeft && ropeAttachedRight){
-            ropeJointLeft.distance -= Time.deltaTime * climbSpeedLeft;
-            ropeJointRight.distance -= Time.deltaTime * climbSpeedRight;
-
         }
     }
 
