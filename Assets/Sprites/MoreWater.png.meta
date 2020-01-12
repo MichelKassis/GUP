@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: c207e60c923b9f34395d223801cc367e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4974676806717675357
+    second: MoreWater_0
+  - first:
+      213: 5147174556549101944
+    second: MoreWater_1
+  - first:
+      213: -5569630272572138161
+    second: MoreWater_2
+  - first:
+      213: 8710108458741922691
+    second: MoreWater_3
+  - first:
+      213: -8765693752109084931
+    second: MoreWater_4
+  - first:
+      213: -7817073411044923092
+    second: MoreWater_5
+  - first:
+      213: -4716838718943994278
+    second: MoreWater_6
+  - first:
+      213: -3445969148048419285
+    second: MoreWater_7
+  - first:
+      213: -7261165495331127237
+    second: MoreWater_8
+  - first:
+      213: 3610320416278757605
+    second: MoreWater_9
+  - first:
+      213: 649845623655010362
+    second: MoreWater_10
+  - first:
+      213: 4214250880124466227
+    second: MoreWater_11
+  - first:
+      213: -962959928756694685
+    second: MoreWater_12
+  - first:
+      213: 3282676447174086894
+    second: MoreWater_13
+  - first:
+      213: 1828170025629171425
+    second: MoreWater_14
+  - first:
+      213: -8196375624944093887
+    second: MoreWater_15
+  - first:
+      213: -2092384225297508309
+    second: MoreWater_16
+  - first:
+      213: -6648530937345435621
+    second: MoreWater_17
+  - first:
+      213: 533600429651432000
+    second: MoreWater_18
+  - first:
+      213: 5048105299422134428
+    second: MoreWater_19
+  - first:
+      213: 7802486969437218498
+    second: MoreWater_20
+  - first:
+      213: -4120026271384625070
+    second: MoreWater_21
+  - first:
+      213: 302809601606628835
+    second: MoreWater_22
+  - first:
+      213: 4562831289101814427
+    second: MoreWater_23
+  - first:
+      213: 7364430885962805842
+    second: MoreWater_24
+  - first:
+      213: -1272002834449057468
+    second: MoreWater_25
+  - first:
+      213: -6870318583705632247
+    second: MoreWater_26
+  - first:
+      213: -4522597250167553371
+    second: MoreWater_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MoreWater_0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2781
+        width: 1222
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631ce1eda9f30da4f9f5efedb3cf62ea
+      internalID: 4974676806717675357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2542
+        width: 1754
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba62e15481f9be4b9fb7d8efde313eb
+      internalID: 5147174556549101944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_2
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 2646
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342b1117bc051594c90d3c3911235892
+      internalID: -5569630272572138161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2558
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18aab09e07ca4ae439b55ce77a52e4af
+      internalID: 8710108458741922691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2558
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78aef2cedb0a3d478bb10b3d11c3436
+      internalID: -8765693752109084931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2558
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795f01a6013622344b0bae6238ca0b13
+      internalID: -7817073411044923092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2559
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c018dc10c7e594cac60dc32fc6bd22
+      internalID: -4716838718943994278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2555
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea54ae1536e92d4d879d48053f5baa4
+      internalID: -3445969148048419285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2557
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006a93ab88c55ea43a7599b133428dcb
+      internalID: -7261165495331127237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2560
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d520492294e8be47bc0d5815de32104
+      internalID: 3610320416278757605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2561
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47409aaa28c09da49995e9cb14d952e5
+      internalID: 649845623655010362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2561
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165e19a1d83573a4f8c994761302583c
+      internalID: 4214250880124466227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2561
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d845a44200b1f0f408e94dc7eaf266ea
+      internalID: -962959928756694685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2559
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53786b2df646e8540950775355d9c601
+      internalID: 3282676447174086894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2544
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8947708910fb274eb02b8ff454e6fab
+      internalID: 1828170025629171425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_15
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2544
+        width: 106
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba7fb02ddca21b488b035332ab4fb6c
+      internalID: -8196375624944093887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2549
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b78cb8670665a2449fc2f27eaf3c84b
+      internalID: -2092384225297508309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2550
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921ced9a9086a254eb4c47eb92e41c9b
+      internalID: -6648530937345435621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_18
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2550
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c910c845c4a63eb4ab739a576dbd0618
+      internalID: 533600429651432000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2555
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70a29cb0a7cd084e9561e7df36864ff
+      internalID: 5048105299422134428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_20
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2550
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e50f2020a0bfc4c97aeea56c2bed0e
+      internalID: 7802486969437218498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_21
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2551
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7ed8173a852184caec232dd8022cd7
+      internalID: -4120026271384625070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2544
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825e0a080d2e4c144bea93a8a737e589
+      internalID: 302809601606628835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_23
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 2468
+        width: 352
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c69e80569723047a08c337255e84ee
+      internalID: 4562831289101814427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_24
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 2464
+        width: 173
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef8be8b12671414c9d621a3a299e3fd
+      internalID: 7364430885962805842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_25
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2462
+        width: 67
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039b42737077f844fb5a925570a6a1fc
+      internalID: -1272002834449057468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_26
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 2461
+        width: 47
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ff6c447bf3b1549857635ca599358c
+      internalID: -6870318583705632247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoreWater_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1780
+        height: 2383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c71d0b534a9c14a9dbc18465ffeb95
+      internalID: -4522597250167553371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
