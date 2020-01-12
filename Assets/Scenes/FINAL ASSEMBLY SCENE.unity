@@ -2677,6 +2677,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2301133460894938438, guid: 54ddedb58f1eca948962b7e729f58701,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301133461010050490, guid: 54ddedb58f1eca948962b7e729f58701,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301133461033149616, guid: 54ddedb58f1eca948962b7e729f58701,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2301133461474446721, guid: 54ddedb58f1eca948962b7e729f58701,
         type: 3}
       propertyPath: m_Layer
@@ -2747,7 +2762,9 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2301133461010050490, guid: 54ddedb58f1eca948962b7e729f58701, type: 3}
+    - {fileID: 2301133461052843715, guid: 54ddedb58f1eca948962b7e729f58701, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 54ddedb58f1eca948962b7e729f58701, type: 3}
 --- !u!58 &2629317956956619991
 CircleCollider2D:
