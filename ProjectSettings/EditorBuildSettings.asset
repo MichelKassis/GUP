@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro4.unity
     guid: 8fb5c830eb974cc498fc6df119192781
   - enabled: 1
-    path: Assets/Scenes/FINAL ASSEMBLY SCENE.unity
+    path: Assets/FINAL ASSEMBLY SCENE.unity
     guid: a133ff9f2126a1d4a8fce10d232b2753
   - enabled: 0
     path: Assets/Scenes/FINAL Free Touch.unity
