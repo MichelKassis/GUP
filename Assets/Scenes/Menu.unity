@@ -1299,6 +1299,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1564701879}
   - component: {fileID: 1564701878}
+  - component: {fileID: 1564701882}
+  - component: {fileID: 1564701881}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1348,6 +1350,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1564701881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564701877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca72dc742e5f2c46b246c984237b701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuStart:
+    ID: -1687411216
+    valueGuid: ec134a0867ebc8458112259ed10913c4
+--- !u!114 &1564701882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564701877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8964fc82c56180f42b9ba33145718cb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  bankName: Gup
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  valueGuid: 4d76269e743c9844a6a67cdb121275ef
 --- !u!1 &1651244851
 GameObject:
   m_ObjectHideFlags: 0
