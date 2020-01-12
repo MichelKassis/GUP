@@ -7,12 +7,19 @@ using UnityEngine;
 public class RisingWater : MonoBehaviour {
     public float speed = 1;
 
-    // Update is called once per frame
+    private bool mainCharacterDied = false;
+    private float deadMainCharacterY;
+
     void Update() {
-        transform.localScale += speed * 2 * Vector3.up / 60;
+        if (!mainCharacterDied || transform.localPosition.y < deadMainCharacterY + 10) {
+            transform.localPosition += speed * Vector3.up / 60;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
+        mainCharacterDied = true;
+        deadMainCharacterY = collision.transform.localPosition.y;
+
         collision.gameObject.SetActive(false);
     }
 }
