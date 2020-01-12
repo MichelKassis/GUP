@@ -44,6 +44,7 @@ public class PauseMenu : MonoBehaviour
 
     public void RestartGame(){
         Application.LoadLevel(Application.loadedLevel);
+        Time.timeScale = 1.0f;
     }
 
     public void QuitGame() {
