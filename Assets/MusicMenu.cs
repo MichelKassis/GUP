@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class MusicMenu : MonoBehaviour {
     public AK.Wwise.Event menuStart;
+    public GameObject wwiseObj;
 
      public void Start() {
 
-        menuStart.Post(gameObject);
+        menuStart.Post(wwiseObj);
 
     }
 }

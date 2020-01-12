@@ -482,6 +482,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddf87b562c14c241ac396844d64bc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopMusicMenu:
+    ID: -1518773942
+    valueGuid: e4188d06c6a2c440811f18511800907b
+  startMusicGame:
+    ID: -181150463
+    valueGuid: 48eac28cf6d4fe4bbca0e53ba7eb7009
+  wwiseObj: {fileID: 1564701877}
 --- !u!1 &904061135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,6 +1543,7 @@ MonoBehaviour:
   menuStart:
     ID: -1687411216
     valueGuid: ec134a0867ebc8458112259ed10913c4
+  wwiseObj: {fileID: 1564701877}
 --- !u!114 &1564701882
 MonoBehaviour:
   m_ObjectHideFlags: 0

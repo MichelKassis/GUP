@@ -474,6 +474,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddf87b562c14c241ac396844d64bc6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopMusicMenu:
+    ID: -1518773942
+    valueGuid: e4188d06c6a2c440811f18511800907b
+  startMusicGame:
+    ID: -181150463
+    valueGuid: 48eac28cf6d4fe4bbca0e53ba7eb7009
+  wwiseObj: {fileID: 1688603685}
 --- !u!4 &1379755462
 Transform:
   m_ObjectHideFlags: 0
