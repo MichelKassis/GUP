@@ -24,7 +24,7 @@ public class FollowCamera : MonoBehaviour
     {
         if (target.position.y > floor)
         {
-            Vector2 dir = target.position - transform.position;
+            Vector2 dir = new Vector2 (0,target.position.y - transform.position.y);
             dir += offset;
             if (dir.sqrMagnitude > min_dist * min_dist)
             {

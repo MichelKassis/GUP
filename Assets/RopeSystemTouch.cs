@@ -31,6 +31,7 @@ public class RopeSystemTouch : MonoBehaviour
     
     public float aimAngle;
 
+    public int minLength;
 
     public GameObject pseudoLauncherRight;
 
@@ -118,6 +119,8 @@ public class RopeSystemTouch : MonoBehaviour
 
     public void HandleInput()
     {
+        retractToggle = false;
+
         if (!didLeftRope)
         {
             ResetRopeLeft();
@@ -160,18 +163,57 @@ public class RopeSystemTouch : MonoBehaviour
     public void HandleRopeLength()
     {
         // 1
-        if (ropeAttachedLeft && ropeAttachedRight){
-            ropeJointLeft.distance -= Time.deltaTime * climbSpeed;
-            ropeJointRight.distance -= Time.deltaTime * climbSpeed;
+        if (ropeAttachedLeft && ropeAttachedRight)
+        {
+            if (ropeJointLeft.distance > minLength)
+            {
+                ropeJointLeft.distance -= Time.deltaTime * climbSpeed;
+            }
+            else
+            {
+                ropeJointLeft.distance = minLength;
+            }
+
+            if (ropeJointRight.distance > minLength)
+            {
+                ropeJointRight.distance -= Time.deltaTime * climbSpeed;
+            }
+            else
+            {
+                ropeJointRight.distance = minLength;
+            }
+
+            if (ropeJointLeft.distance <= minLength && ropeJointRight.distance <= minLength)
+            {
+                ropeJointLeft.distance = minLength;
+                ropeJointRight.distance = minLength;
+                retractToggle = false;
+            }
         }
         else if (ropeAttachedLeft && !ropeAttachedRight)
         {
-            ropeJointLeft.distance -= Time.deltaTime * climbSpeed;
+            if (ropeJointLeft.distance > minLength)
+            {
+                ropeJointLeft.distance -= Time.deltaTime * climbSpeed;
+            }
+            else
+            {
+                retractToggle = false;
+                ropeJointLeft.distance = minLength;
+            }
         }
 
         else if (!ropeAttachedLeft && ropeAttachedRight)
         {
-            ropeJointRight.distance -= Time.deltaTime * climbSpeed;
+            if (ropeJointRight.distance > minLength)
+            {
+                ropeJointRight.distance -= Time.deltaTime * climbSpeed;
+            }
+            else
+            {
+                retractToggle = false;
+                ropeJointRight.distance = minLength;
+            }
         }
     }
 
