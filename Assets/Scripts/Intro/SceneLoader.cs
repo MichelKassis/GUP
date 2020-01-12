@@ -40,5 +40,20 @@ public class SceneLoader : MonoBehaviour
         startMusicGame.Post(wwiseObj);
         SceneManager.LoadScene("FINAL Free Touch 0");
     }
-
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void LoadHowToPlay()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 }
