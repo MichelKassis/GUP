@@ -10,6 +10,9 @@ public class FollowCamera : MonoBehaviour
     public float speed = 2;
     public float size = 20;
     public float min_dist = 0.5f;
+
+    public int floor;
+
     void Start()
     {
         Camera cam = GetComponent<Camera>();
@@ -19,11 +22,14 @@ public class FollowCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 dir = target.position - transform.position;
-        dir += offset;
-        if (dir.sqrMagnitude > min_dist * min_dist)
+        if (target.position.y > floor)
         {
-            transform.position += (Vector3)dir * speed * Time.deltaTime;
+            Vector2 dir = target.position - transform.position;
+            dir += offset;
+            if (dir.sqrMagnitude > min_dist * min_dist)
+            {
+                transform.position += (Vector3)dir * speed * Time.deltaTime;
+            }
         }
     }
 }

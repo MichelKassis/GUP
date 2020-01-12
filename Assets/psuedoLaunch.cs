@@ -8,6 +8,8 @@ public class psuedoLaunch : MonoBehaviour
 
     public GameObject mech;
 
+    public bool alt_launch;
+
     public bool launched;
     private bool retract;
     private float length;
@@ -67,15 +69,30 @@ public class psuedoLaunch : MonoBehaviour
                                 }
 
                                 GetComponent<SpriteRenderer>().enabled = false;
-                                if (left)
+                                if (alt_launch)
                                 {
-                                    mech.GetComponent<RopeSystem>().CastRopeLeft(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(1, 0));
+                                    if (left)
+                                    {
+                                        mech.GetComponent<RopeSystemTouch>().CastRopeLeft(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(1, 0));
+                                    }
+                                    else
+                                    {
+                                        mech.GetComponent<RopeSystemTouch>().CastRopeRight(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(1, 0));
+                                    }
+                                    retract = true;
                                 }
                                 else
                                 {
-                                    mech.GetComponent<RopeSystem>().CastRopeRight(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(1, 0));
+                                    if (left)
+                                    {
+                                        mech.GetComponent<RopeSystem>().CastRopeLeft(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(1, 0));
+                                    }
+                                    else
+                                    {
+                                        mech.GetComponent<RopeSystem>().CastRopeRight(Quaternion.Euler(0, 0, CastAngle * Mathf.Rad2Deg) * new Vector2(1, 0));
+                                    }
+                                    retract = true;
                                 }
-                                retract = true;
                             }
                         }
                     }
