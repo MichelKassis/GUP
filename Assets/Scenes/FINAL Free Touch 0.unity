@@ -489,7 +489,7 @@ PrefabInstance:
         type: 3}
       propertyPath: mainCharacter
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1667693727}
     - target: {fileID: 6608104824078716574, guid: b7986130334b92d42b774be85e71ac01,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -863,6 +863,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1667693727 stripped
+PolygonCollider2D:
+  m_CorrespondingSourceObject: {fileID: 4731375928427547244, guid: 913660e7d07554ce9a271d08b3461a31,
+    type: 3}
+  m_PrefabInstance: {fileID: 76019056}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1676488294
 GameObject:
   m_ObjectHideFlags: 0
