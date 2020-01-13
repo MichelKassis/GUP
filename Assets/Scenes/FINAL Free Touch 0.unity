@@ -1209,6 +1209,16 @@ PrefabInstance:
       propertyPath: wwiseobj
       value: 
       objectReference: {fileID: 1483312214}
+    - target: {fileID: 3540944404609748624, guid: c1100a78c61644772aec5b1ea9d71a21,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540944404711908811, guid: c1100a78c61644772aec5b1ea9d71a21,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8197180152574466560, guid: c1100a78c61644772aec5b1ea9d71a21,
         type: 3}
       propertyPath: wwiseObj
@@ -1216,6 +1226,42 @@ PrefabInstance:
       objectReference: {fileID: 1483312214}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1100a78c61644772aec5b1ea9d71a21, type: 3}
+--- !u!1 &3540944403543602791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3868423243454673701, guid: c1100a78c61644772aec5b1ea9d71a21,
+    type: 3}
+  m_PrefabInstance: {fileID: 3540944403543602790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3540944403543602792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 154857750804334901, guid: c1100a78c61644772aec5b1ea9d71a21,
+    type: 3}
+  m_PrefabInstance: {fileID: 3540944403543602790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3540944403543602793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3540944403543602791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7742cef0818f4008a1c7eafa675ad83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3540944403543602794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3540944403543602792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7742cef0818f4008a1c7eafa675ad83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &3950950859102151967
 RectTransform:
   m_ObjectHideFlags: 0
