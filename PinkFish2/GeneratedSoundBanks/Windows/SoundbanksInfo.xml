@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Programming\Games\McGame-2020\PinkFish2\</ProjectRoot>
+		<SourceFilesRoot>D:\Programming\Games\McGame-2020\PinkFish2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Programming\Games\McGame-2020\PinkFish2\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\TempAccount\Desktop\GameJams\McGame-2020\PinkFish2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Programming\Games\McGame-2020\PinkFish2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
