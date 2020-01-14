@@ -6,12 +6,12 @@ Team Members (in alphabetical order) :
 
 Alex Lo (Programming)
 
-Conor Geoghegan (Art)
+Conor Geoghegan (Art - Story)
 
-Jack Xie (Art - Programming)
+Jack Xie (Art - Programming - Level Design)
 
 Jeffrey Tang (Programming)
 
-Marie-Helene Vallieres-Riendeau (Music)
+Marie-Helene Vallieres-Riendeau (Music - Sound Design)
 
 Michel Kassis (Programming)
