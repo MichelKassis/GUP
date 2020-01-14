@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>D:\Programming\Games\McGame-2020\PinkFish2\</ProjectRoot>
+		<SourceFilesRoot>D:\Programming\Games\McGame-2020\PinkFish2\.cache\iOS\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Programming\Games\McGame-2020\PinkFish2\GeneratedSoundBanks\iOS\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Programming\Games\McGame-2020\PinkFish2\GeneratedSoundBanks\iOS</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="915214423" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Gup</ObjectPath>
+			<ShortName>Gup</ShortName>
+			<Path>Gup.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3811936753" Name="Birds_Hurt" ObjectPath="\Events\Default Work Unit\Birds_Hurt"/>
+				<Event Id="1560169506" Name="Boss" ObjectPath="\Events\Default Work Unit\Boss"/>
+				<Event Id="2514411491" Name="Died" ObjectPath="\Events\Default Work Unit\Died"/>
+				<Event Id="529726532" Name="End" ObjectPath="\Events\Default Work Unit\End"/>
+				<Event Id="2122105434" Name="Hawk_Scream" ObjectPath="\Events\Default Work Unit\Hawk_Scream"/>
+				<Event Id="3193947170" Name="Hurt" ObjectPath="\Events\Default Work Unit\Hurt"/>
+				<Event Id="4113816833" Name="InitGame" ObjectPath="\Events\Default Work Unit\InitGame"/>
+				<Event Id="2678230381" Name="Level2" ObjectPath="\Events\Default Work Unit\Level2" MaxAttenuation="0.000000"/>
+				<Event Id="2607556080" Name="Menu" ObjectPath="\Events\Default Work Unit\Menu"/>
+				<Event Id="2776193354" Name="Menu_Quit" ObjectPath="\Events\Default Work Unit\Menu_Quit" MaxAttenuation="0.000000"/>
+				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0.000000"/>
+				<Event Id="3903201844" Name="Web_Attack" ObjectPath="\Events\Default Work Unit\Web_Attack"/>
+				<Event Id="2524867556" Name="Web_Grip" ObjectPath="\Events\Default Work Unit\Web_Grip"/>
+				<Event Id="1335561985" Name="Web_Launch" ObjectPath="\Events\Default Work Unit\Web_Launch"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="719687" Language="SFX">
+					<ShortName>Level1_Strings-002.wav</ShortName>
+					<Path>SFX\Level1_Strings-002_8956FC97.wem</Path>
+				</File>
+				<File Id="7042929" Language="SFX">
+					<ShortName>Level1_Strings-001.wav</ShortName>
+					<Path>SFX\Level1_Strings-001_8956FC97.wem</Path>
+				</File>
+				<File Id="37903565" Language="SFX">
+					<ShortName>Hawk_Scream-001.wav</ShortName>
+					<Path>SFX\Hawk_Scream-001_56D34C19.wem</Path>
+				</File>
+				<File Id="40167412" Language="SFX">
+					<ShortName>Web_Attack1.wav</ShortName>
+					<Path>SFX\Web_Attack1_56D34C19.wem</Path>
+				</File>
+				<File Id="71411952" Language="SFX">
+					<ShortName>Character_Dying-002.wav</ShortName>
+					<Path>SFX\Character_Dying-002_56D34C19.wem</Path>
+				</File>
+				<File Id="72358725" Language="SFX">
+					<ShortName>Boss_Marimba_High.wav</ShortName>
+					<Path>SFX\Boss_Marimba_High_8956FC97.wem</Path>
+				</File>
+				<File Id="114077949" Language="SFX">
+					<ShortName>Boss_GrosseCaisse.wav</ShortName>
+					<Path>SFX\Boss_GrosseCaisse_8956FC97.wem</Path>
+				</File>
+				<File Id="160666818" Language="SFX">
+					<ShortName>Web_Grip-001.wav</ShortName>
+					<Path>SFX\Web_Grip-001_56D34C19.wem</Path>
+				</File>
+				<File Id="161653911" Language="SFX">
+					<ShortName>Empty.wav</ShortName>
+					<Path>SFX\Empty_56D34C19.wem</Path>
+				</File>
+				<File Id="164811070" Language="SFX">
+					<ShortName>Trans_SynthMel.wav</ShortName>
+					<Path>SFX\Trans_SynthMel_8956FC97.wem</Path>
+				</File>
+				<File Id="194934593" Language="SFX">
+					<ShortName>Level2_synthHigh.wav</ShortName>
+					<Path>SFX\Level2_synthHigh_8956FC97.wem</Path>
+				</File>
+				<File Id="213949011" Language="SFX">
+					<ShortName>Ennemies_Birds-001.wav</ShortName>
+					<Path>SFX\Ennemies_Birds-001_56D34C19.wem</Path>
+				</File>
+				<File Id="222675610" Language="SFX">
+					<ShortName>Web_Attack2.wav</ShortName>
+					<Path>SFX\Web_Attack2_56D34C19.wem</Path>
+				</File>
+				<File Id="225211638" Language="SFX">
+					<ShortName>Ennemies_Birds-004.wav</ShortName>
+					<Path>SFX\Ennemies_Birds-004_56D34C19.wem</Path>
+				</File>
+				<File Id="226052041" Language="SFX">
+					<ShortName>Fish_movements-003.wav</ShortName>
+					<Path>SFX\Fish_movements-003_56D34C19.wem</Path>
+				</File>
+				<File Id="288686203" Language="SFX">
+					<ShortName>Level1_Strings1.wav</ShortName>
+					<Path>SFX\Level1_Strings1_8956FC97.wem</Path>
+				</File>
+				<File Id="294020457" Language="SFX">
+					<ShortName>Boss_Toms_High.wav</ShortName>
+					<Path>SFX\Boss_Toms_High_8956FC97.wem</Path>
+				</File>
+				<File Id="305995207" Language="SFX">
+					<ShortName>Level1_PercusMetalliques.wav</ShortName>
+					<Path>SFX\Level1_PercusMetalliques_8956FC97.wem</Path>
+				</File>
+				<File Id="347703128" Language="SFX">
+					<ShortName>Level1_Toms.wav</ShortName>
+					<Path>SFX\Level1_Toms_8956FC97.wem</Path>
+				</File>
+				<File Id="351925632" Language="SFX">
+					<ShortName>Web_Grip-002.wav</ShortName>
+					<Path>SFX\Web_Grip-002_56D34C19.wem</Path>
+				</File>
+				<File Id="360155151" Language="SFX">
+					<ShortName>Trans_Marimba.wav</ShortName>
+					<Path>SFX\Trans_Marimba_8956FC97.wem</Path>
+				</File>
+				<File Id="373231453" Language="SFX">
+					<ShortName>Fish_movements-001.wav</ShortName>
+					<Path>SFX\Fish_movements-001_56D34C19.wem</Path>
+				</File>
+				<File Id="395501535" Language="SFX">
+					<ShortName>Level2_strings-002.wav</ShortName>
+					<Path>SFX\Level2_strings-002_8956FC97.wem</Path>
+				</File>
+				<File Id="410206697" Language="SFX">
+					<ShortName>Level2_strings-001.wav</ShortName>
+					<Path>SFX\Level2_strings-001_8956FC97.wem</Path>
+				</File>
+				<File Id="439477095" Language="SFX">
+					<ShortName>Trans_SynthBasse.wav</ShortName>
+					<Path>SFX\Trans_SynthBasse_8956FC97.wem</Path>
+				</File>
+				<File Id="453913426" Language="SFX">
+					<ShortName>Level2_synthBasse.wav</ShortName>
+					<Path>SFX\Level2_synthBasse_8956FC97.wem</Path>
+				</File>
+				<File Id="484178474" Language="SFX">
+					<ShortName>Level1_SynthMel.wav</ShortName>
+					<Path>SFX\Level1_SynthMel_8956FC97.wem</Path>
+				</File>
+				<File Id="500895218" Language="SFX">
+					<ShortName>Ennemies_Birds-003.wav</ShortName>
+					<Path>SFX\Ennemies_Birds-003_56D34C19.wem</Path>
+				</File>
+				<File Id="522702037" Language="SFX">
+					<ShortName>Hawk_Scream.wav</ShortName>
+					<Path>SFX\Hawk_Scream_8956FC97.wem</Path>
+				</File>
+				<File Id="551638376" Language="SFX">
+					<ShortName>Boss_Basse_High.wav</ShortName>
+					<Path>SFX\Boss_Basse_High_8956FC97.wem</Path>
+				</File>
+				<File Id="597752817" Language="SFX">
+					<ShortName>Level1_Marimba.wav</ShortName>
+					<Path>SFX\Level1_Marimba_8956FC97.wem</Path>
+				</File>
+				<File Id="614099117" Language="SFX">
+					<ShortName>Boss_Basse_Low.wav</ShortName>
+					<Path>SFX\Boss_Basse_Low_8956FC97.wem</Path>
+				</File>
+				<File Id="636658360" Language="SFX">
+					<ShortName>Ennemies_Birds-005.wav</ShortName>
+					<Path>SFX\Ennemies_Birds-005_56D34C19.wem</Path>
+				</File>
+				<File Id="643460121" Language="SFX">
+					<ShortName>Level2_strings.wav</ShortName>
+					<Path>SFX\Level2_strings_8956FC97.wem</Path>
+				</File>
+				<File Id="682926224" Language="SFX">
+					<ShortName>Hawk_Scream-001.wav</ShortName>
+					<Path>SFX\Hawk_Scream-001_8956FC97.wem</Path>
+				</File>
+				<File Id="701144991" Language="SFX">
+					<ShortName>Web_Launch.wav</ShortName>
+					<Path>SFX\Web_Launch_56D34C19.wem</Path>
+				</File>
+				<File Id="703695443" Language="SFX">
+					<ShortName>Fish_Hurt.wav</ShortName>
+					<Path>SFX\Fish_Hurt_56D34C19.wem</Path>
+				</File>
+				<File Id="708435364" Language="SFX">
+					<ShortName>Ennemies_Birds-002.wav</ShortName>
+					<Path>SFX\Ennemies_Birds-002_56D34C19.wem</Path>
+				</File>
+				<File Id="721793077" Language="SFX">
+					<ShortName>Character_Dying-003.wav</ShortName>
+					<Path>SFX\Character_Dying-003_56D34C19.wem</Path>
+				</File>
+				<File Id="732616698" Language="SFX">
+					<ShortName>Web_Launch-001.wav</ShortName>
+					<Path>SFX\Web_Launch-001_56D34C19.wem</Path>
+				</File>
+				<File Id="746254790" Language="SFX">
+					<ShortName>Character_Dying-001.wav</ShortName>
+					<Path>SFX\Character_Dying-001_56D34C19.wem</Path>
+				</File>
+				<File Id="761669344" Language="SFX">
+					<ShortName>Boss_Marimba_Low.wav</ShortName>
+					<Path>SFX\Boss_Marimba_Low_8956FC97.wem</Path>
+				</File>
+				<File Id="767632123" Language="SFX">
+					<ShortName>Boss_Toms_Low.wav</ShortName>
+					<Path>SFX\Boss_Toms_Low_8956FC97.wem</Path>
+				</File>
+				<File Id="912682116" Language="SFX">
+					<ShortName>Level1_SynthBasse.wav</ShortName>
+					<Path>SFX\Level1_SynthBasse_8956FC97.wem</Path>
+				</File>
+				<File Id="945773040" Language="SFX">
+					<ShortName>Level2_theremine.wav</ShortName>
+					<Path>SFX\Level2_theremine_8956FC97.wem</Path>
+				</File>
+				<File Id="967397725" Language="SFX">
+					<ShortName>Hawk_Scream.wav</ShortName>
+					<Path>SFX\Hawk_Scream_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
