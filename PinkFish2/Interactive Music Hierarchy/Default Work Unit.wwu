@@ -121,6 +121,10 @@
 												<AudioFileSource Name="Level1_PercusMetalliques" ID="{A56524B1-2227-4C0F-9C8F-3BA7AC5308CB}" ShortID="868732314">
 													<Language>SFX</Language>
 													<AudioFile>Level1_PercusMetalliques.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="iOS" ID="305995207"/>
+														<File Platform="Mac" ID="305995207"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -160,6 +164,10 @@
 												<AudioFileSource Name="Level1_Strings1" ID="{33B99B18-7A09-490F-BB86-192A2BC897E6}" ShortID="933793364">
 													<Language>SFX</Language>
 													<AudioFile>Level1_Strings1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="iOS" ID="288686203"/>
+														<File Platform="Mac" ID="288686203"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 												<AudioFileSource Name="Level1_Strings-001" ID="{A56BEEAD-549A-4FF0-A946-C11B82FDFC44}" ShortID="7042929">
 													<Language>SFX</Language>
@@ -168,6 +176,10 @@
 												<AudioFileSource Name="Level1_Strings-002" ID="{AD018A75-D1E1-4199-BA20-E3788939A6C2}" ShortID="6923489">
 													<Language>SFX</Language>
 													<AudioFile>Level1_Strings-002.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="iOS" ID="719687"/>
+														<File Platform="Mac" ID="719687"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -356,6 +368,10 @@
 												<AudioFileSource Name="Level1_Toms" ID="{1ED94EAE-C046-466E-BFFF-462B6288DD6C}" ShortID="432009668">
 													<Language>SFX</Language>
 													<AudioFile>Level1_Toms.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File Platform="iOS" ID="347703128"/>
+														<File Platform="Mac" ID="347703128"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -747,7 +763,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Level1_PercusMetalliques.wav</AudioFile>
 													<ConvertedFileIDList>
-														<File ID="868732314"/>
+														<File Platform="Windows" ID="868732314"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -1076,7 +1092,9 @@
 									<Language>SFX</Language>
 									<AudioFile>Level1_PercusMetalliques.wav</AudioFile>
 									<ConvertedFileIDList>
-										<File ID="868732314"/>
+										<File Platform="iOS" ID="305995207"/>
+										<File Platform="Mac" ID="305995207"/>
+										<File Platform="Windows" ID="868732314"/>
 									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -1213,7 +1231,7 @@
 									<Language>SFX</Language>
 									<AudioFile>Level1_Toms.wav</AudioFile>
 									<ConvertedFileIDList>
-										<File ID="432009668"/>
+										<File Platform="Windows" ID="432009668"/>
 									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -1533,7 +1551,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Level1_Strings1.wav</AudioFile>
 											<ConvertedFileIDList>
-												<File ID="933793364"/>
+												<File Platform="Windows" ID="933793364"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Level1_Strings-001" ID="{4D72D72D-5AC7-474D-91CF-0ADAA31602C7}" ShortID="483155460">
@@ -1547,7 +1565,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Level1_Strings-002.wav</AudioFile>
 											<ConvertedFileIDList>
-												<File ID="6923489"/>
+												<File Platform="Windows" ID="6923489"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1861,6 +1879,10 @@
 										<AudioFileSource Name="Boss_GrosseCaisse" ID="{B3343AF0-0134-4E97-B1A8-1DB6E41CE8D5}" ShortID="625488042">
 											<Language>SFX</Language>
 											<AudioFile>Boss_GrosseCaisse.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File Platform="iOS" ID="114077949"/>
+												<File Platform="Mac" ID="114077949"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
@@ -1966,6 +1988,10 @@
 										<AudioFileSource Name="Boss_Toms_High" ID="{B73B163C-40FB-4D6F-8839-D763E8672014}" ShortID="437276114">
 											<Language>SFX</Language>
 											<AudioFile>Boss_Toms_High.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File Platform="iOS" ID="294020457"/>
+												<File Platform="Mac" ID="294020457"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Boss_Toms_Low" ID="{47E2BE75-E4B3-46B1-B646-7D2227FBB5F4}" ShortID="767632123">
 											<Language>SFX</Language>
@@ -2049,7 +2075,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Boss_GrosseCaisse.wav</AudioFile>
 											<ConvertedFileIDList>
-												<File ID="625488042"/>
+												<File Platform="Windows" ID="625488042"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2227,7 +2253,9 @@
 											<Language>SFX</Language>
 											<AudioFile>Boss_GrosseCaisse.wav</AudioFile>
 											<ConvertedFileIDList>
-												<File ID="625488042"/>
+												<File Platform="iOS" ID="114077949"/>
+												<File Platform="Mac" ID="114077949"/>
+												<File Platform="Windows" ID="625488042"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2394,7 +2422,9 @@
 											<Language>SFX</Language>
 											<AudioFile>Boss_GrosseCaisse.wav</AudioFile>
 											<ConvertedFileIDList>
-												<File ID="625488042"/>
+												<File Platform="iOS" ID="114077949"/>
+												<File Platform="Mac" ID="114077949"/>
+												<File Platform="Windows" ID="625488042"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2536,7 +2566,7 @@
 											<Language>SFX</Language>
 											<AudioFile>Boss_Toms_High.wav</AudioFile>
 											<ConvertedFileIDList>
-												<File ID="437276114"/>
+												<File Platform="Windows" ID="437276114"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Boss_Toms_Low" ID="{656B35E1-1503-4A8E-9793-70E4C567F2E9}" ShortID="954762347">
@@ -2624,7 +2654,9 @@
 											<Language>SFX</Language>
 											<AudioFile>Boss_GrosseCaisse.wav</AudioFile>
 											<ConvertedFileIDList>
-												<File ID="625488042"/>
+												<File Platform="iOS" ID="114077949"/>
+												<File Platform="Mac" ID="114077949"/>
+												<File Platform="Windows" ID="625488042"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>

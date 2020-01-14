@@ -1,54 +1,72 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="89" WwiseVersion="v2018.1.1" WwiseBuild="6727">
 	<ProjectInfo>
 		<Project Name="PinkFish" ID="{62B5DD47-F390-4AD1-9E5D-BA713B5632A9}">
 			<Platforms>
-				<Platform Name="Windows" ReferencePlatform="Windows" ID="{BEB1295D-3DF3-4DC0-8B42-6182497F7239}" />
+				<Platform Name="iOS" ReferencePlatform="iOS" ID="{E3B1A6D6-069E-4A60-B82E-5D7124DB1BED}"/>
+				<Platform Name="Mac" ReferencePlatform="Mac" ID="{ACF3C043-5EB8-4AB8-B5C9-F1A9DC38A760}"/>
+				<Platform Name="Windows" ReferencePlatform="Windows" ID="{BEB1295D-3DF3-4DC0-8B42-6182497F7239}"/>
 			</Platforms>
 			<LanguageList>
-				<Language Name="English(US)" ID="{085527BD-4DB9-4D4D-B5FD-0762287593F3}" />
-				<Language Name="External" ID="{964F3273-D4C8-4045-9921-E12DC301CECE}" />
-				<Language Name="Mixed" ID="{60A8AF65-B93B-4DD9-BD5E-00CDAC4FC1D0}" />
-				<Language Name="SFX" ID="{08195CDF-48CC-4D24-B8FE-AB6C0DD83080}" />
+				<Language Name="English(US)" ID="{085527BD-4DB9-4D4D-B5FD-0762287593F3}"/>
+				<Language Name="External" ID="{964F3273-D4C8-4045-9921-E12DC301CECE}"/>
+				<Language Name="Mixed" ID="{60A8AF65-B93B-4DD9-BD5E-00CDAC4FC1D0}"/>
+				<Language Name="SFX" ID="{08195CDF-48CC-4D24-B8FE-AB6C0DD83080}"/>
 			</LanguageList>
 			<PropertyList>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
+						<Value Platform="iOS"></Value>
+						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
+						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
+				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="../Assets/StreamingAssets/Audio/GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
+						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="iOS">Copy Streamed Files</Value>
+						<Value Platform="Mac">Copy Streamed Files</Value>
 						<Value Platform="Windows">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="iOS">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+						<Value Platform="Mac">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="Windows">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="iOS"></Value>
+						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="iOS"></Value>
+						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2018.1|Build=6727|VersionName=v2018.1.1|Config=Release" />
+				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2018.1|Build=6727|VersionName=v2018.1.1|Config=Release"/>
 			</PropertyList>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
@@ -130,7 +148,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="PCM" PluginType="1" CompanyID="0" PluginID="1" />
+				<SharedPropertyList ClassName="PCM" PluginType="1" CompanyID="0" PluginID="1"/>
 				<SharedPropertyList ClassName="Sound" PluginType="0" CompanyID="1" PluginID="1">
 					<PropertyList>
 						<Property Name="3DPosition" Type="int16">
@@ -633,7 +651,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="iZotope Hybrid Reverb" PluginType="3" CompanyID="259" PluginID="2">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="2">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -961,7 +979,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="iZotope Trash Distortion" PluginType="3" CompanyID="259" PluginID="3">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="3">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -1118,7 +1136,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="iZotope Trash Delay" PluginType="3" CompanyID="259" PluginID="4">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="4">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -1336,7 +1354,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="iZotope Trash Dynamics Mono" PluginType="3" CompanyID="259" PluginID="5">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="5">
 					<PropertyList>
 						<Property Name="Bypass" Type="int32">
 							<ValueList>
@@ -1419,7 +1437,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="iZotope Trash Filters" PluginType="3" CompanyID="259" PluginID="6">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="6">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -1637,7 +1655,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="iZotope Trash Box Modeler" PluginType="3" CompanyID="259" PluginID="7">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="7">
 					<PropertyList>
 						<Property Name="BoxModel" Type="int32">
 							<ValueList>
@@ -2609,7 +2627,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="iZotope Trash Multiband Distortion" PluginType="3" CompanyID="259" PluginID="9">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="259" PluginID="9">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -6840,7 +6858,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ExternalSource" PluginType="0" CompanyID="1" PluginID="57" />
+				<SharedPropertyList ClassName="ExternalSource" PluginType="0" CompanyID="1" PluginID="57"/>
 				<SharedPropertyList ClassName="MusicTrackSequence" PluginType="0" CompanyID="1" PluginID="58">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -7415,7 +7433,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Platform" PluginType="0" CompanyID="1" PluginID="69" />
+				<SharedPropertyList ClassName="Platform" PluginType="0" CompanyID="1" PluginID="69"/>
 				<SharedPropertyList ClassName="AudioDevice" PluginType="0" CompanyID="1" PluginID="71">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
@@ -7688,7 +7706,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="McDSP ML1" PluginType="3" CompanyID="256" PluginID="103">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="256" PluginID="103">
 					<PropertyList>
 						<Property Name="Ceiling" Type="Real32">
 							<ValueList>
@@ -8047,7 +8065,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="McDSP FutzBox" PluginType="3" CompanyID="256" PluginID="110">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="256" PluginID="110">
 					<PropertyList>
 						<Property Name="Balance" Type="Real32">
 							<ValueList>
@@ -9372,6 +9390,180 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
+				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+					<PropertyList>
+						<Property Name="AlgoTypeSelect" Type="int32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="CenterLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ChannelConfigOverride" Type="int64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Color" Type="int16">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="DryLevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FrontLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="FrontRearDelay" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRChannelSelect" Type="int32">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionSmooth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionSmoothMax" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionStart" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionStop" Type="Real64">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRConvolutionThreshold" Type="Real32">
+							<ValueList>
+								<Value>-144</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRGraphicEQAutomate" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLPFAutomate" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLPFSlope" Type="int32">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLRMix" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRLevelAutomate" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IRStretch" Type="Real32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputCenterLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputLFELevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InputStereoWidth" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LFELevel" Type="Real32">
+							<ValueList>
+								<Value>-96.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PreDelay" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RearLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineBlockSizeDefault" Type="int32">
+							<ValueList>
+								<Value>1024</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateDefault" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateMac" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SoundEngineSampleRateiOS" Type="int32">
+							<ValueList>
+								<Value>48000</Value>
+							</ValueList>
+						</Property>
+						<Property Name="StereoWidth" Type="Real32">
+							<ValueList>
+								<Value>180</Value>
+							</ValueList>
+						</Property>
+						<Property Name="WetLevel" Type="Real32">
+							<ValueList>
+								<Value>0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</SharedPropertyList>
 				<SharedPropertyList ClassName="Wwise Meter" PluginType="3" CompanyID="0" PluginID="129">
 					<PropertyList>
 						<Property Name="ApplyDownstreamVolume" Type="bool">
@@ -10530,7 +10722,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Auro Headphone" PluginType="3" CompanyID="263" PluginID="1100">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="263" PluginID="1100">
 					<PropertyList>
 						<Property Name="Bypass" Type="bool">
 							<ValueList>
@@ -10666,7 +10858,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{C2FE9DD6-CC2B-4D8A-9A88-B8D4ADD71CE3}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="3" />
+									<Property Name="Flags" Type="int32" Value="3"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -10687,7 +10879,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{D46AA9B3-AD2C-4F4D-A231-486D2E29C8A0}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1" />
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -10708,7 +10900,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{122EF8B9-1972-482D-8AD6-568101D42C65}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1" />
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -10729,7 +10921,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{B0F26597-A239-41F0-BD0F-77C720614873}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="3" />
+									<Property Name="Flags" Type="int32" Value="3"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -10750,7 +10942,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="true">
 							<Curve Name="" ID="{1FB161FA-36E0-4878-8C53-11C23C01B33A}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1" />
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -10771,7 +10963,7 @@
 						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{5392B79A-11D3-4B81-BA64-EDC18E64542E}">
 								<PropertyList>
-									<Property Name="Flags" Type="int32" Value="1" />
+									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
 								<PointList>
 									<Point>
@@ -10790,70 +10982,70 @@
 					</ObsOccCurve>
 				</ObsOccCurves>
 			</EnvironmentalSettings>
-			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" />
+			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
-					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone" />
+					<WorkUnit Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Attenuations">
-					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone" />
+					<WorkUnit Name="Attenuations" ID="{017BDDA0-1BB1-4CE1-8077-79594EC4585C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Audio Devices">
-					<WorkUnit Name="Audio Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone" />
+					<WorkUnit Name="Audio Devices" ID="{27092F88-225A-1154-6725-C8A34F3D4482}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Control Surface Sessions">
-					<WorkUnit Name="Control Surface Sessions" ID="{1751E4CD-8018-4E2C-9A8A-C77764D1D653}" PersistMode="Standalone" />
+					<WorkUnit Name="Control Surface Sessions" ID="{1751E4CD-8018-4E2C-9A8A-C77764D1D653}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Conversion Settings">
-					<WorkUnit Name="Conversion Settings" ID="{4AA12040-049C-400F-ABCD-6EED192EC1D7}" PersistMode="Standalone" />
+					<WorkUnit Name="Conversion Settings" ID="{4AA12040-049C-400F-ABCD-6EED192EC1D7}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Dynamic Dialogue">
-					<WorkUnit Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" PersistMode="Standalone" />
+					<WorkUnit Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Effects">
-					<WorkUnit Name="Effects" ID="{41093F77-829F-4D88-8601-E8B25F3D4781}" PersistMode="Standalone" />
+					<WorkUnit Name="Effects" ID="{41093F77-829F-4D88-8601-E8B25F3D4781}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Events">
-					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone" />
+					<WorkUnit Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Game Parameters">
-					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone" />
+					<WorkUnit Name="Game Parameters" ID="{4025818E-097F-4A72-B692-B8A2E2663DCB}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Interactive Music Hierarchy">
-					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone" />
+					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Master-Mixer Hierarchy">
-					<WorkUnit Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone" />
+					<WorkUnit Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Mixing Sessions">
-					<WorkUnit Name="Mixing Sessions" ID="{6477AAF7-E365-4990-A392-E59B824B6418}" PersistMode="Standalone" />
+					<WorkUnit Name="Mixing Sessions" ID="{6477AAF7-E365-4990-A392-E59B824B6418}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Modulators">
-					<WorkUnit Name="Modulators" ID="{14C37342-3847-49FF-A05C-5007991BED50}" PersistMode="Standalone" />
+					<WorkUnit Name="Modulators" ID="{14C37342-3847-49FF-A05C-5007991BED50}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Presets">
-					<WorkUnit Name="Presets" ID="{34C55C34-79EE-4678-860F-4C7DBE71D6DF}" PersistMode="Standalone" />
+					<WorkUnit Name="Presets" ID="{34C55C34-79EE-4678-860F-4C7DBE71D6DF}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Queries">
-					<WorkUnit Name="Queries" ID="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}" PersistMode="Standalone" />
+					<WorkUnit Name="Queries" ID="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks">
-					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone" />
+					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
-					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone" />
+					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="States">
-					<WorkUnit Name="States" ID="{59A9E7B9-61C9-461A-A96F-4997B541A59C}" PersistMode="Standalone" />
+					<WorkUnit Name="States" ID="{59A9E7B9-61C9-461A-A96F-4997B541A59C}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Switches">
-					<WorkUnit Name="Switches" ID="{CB6175F1-6080-4A23-92EF-0807E304D0C1}" PersistMode="Standalone" />
+					<WorkUnit Name="Switches" ID="{CB6175F1-6080-4A23-92EF-0807E304D0C1}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Triggers">
-					<WorkUnit Name="Triggers" ID="{6C7657FC-4758-4D41-BD4C-68B09F91DB29}" PersistMode="Standalone" />
+					<WorkUnit Name="Triggers" ID="{6C7657FC-4758-4D41-BD4C-68B09F91DB29}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Virtual Acoustics">
-					<WorkUnit Name="Virtual Acoustics" ID="{32CD8547-A946-4547-BBB1-69F44E796139}" PersistMode="Standalone" />
+					<WorkUnit Name="Virtual Acoustics" ID="{32CD8547-A946-4547-BBB1-69F44E796139}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 			</PhysicalFolderList>
 		</Project>
