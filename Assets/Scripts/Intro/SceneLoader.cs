@@ -12,22 +12,11 @@ public class SceneLoader : MonoBehaviour
 
     
 
-    public void LoadIntro1Scene()
+    public void LoadIntroScene()
     {
-        SceneManager.LoadScene("Intro1");
+        SceneManager.LoadScene("Intro");
     }
-    public void LoadIntro2Scene()
-    {
-        SceneManager.LoadScene("Intro2");
-    }
-    public void LoadIntro3Scene()
-    {
-        SceneManager.LoadScene("Intro3");
-    }
-        public void LoadIntro4Scene()
-    {
-        SceneManager.LoadScene("Intro4");
-    }
+
     public void LoadMainSlowScene()
     {
         stopMusicMenu.Post(wwiseObj);
